@@ -5,7 +5,7 @@ Copy this file to ~/.ptpython/config.py
 """
 from __future__ import unicode_literals
 from prompt_toolkit.filters import ViInsertMode
-from prompt_toolkit.key_binding.input_processor import KeyPress " This has to be removed in python3.6. The class no longer exists
+#  from prompt_toolkit.key_binding.input_processor import KeyPress " This has to be removed in python3.6. The class no longer exists
 from prompt_toolkit.keys import Keys
 from pygments.token import Token
 
@@ -107,6 +107,18 @@ def configure(repl):
     # Enable 24bit True color. (Not all terminals support this. -- maybe check
     # $TERM before changing.)
     repl.true_color = False
+    repl.monchrome = True
+
+    #  repl.enable_syntax_highlighting = False
+
+    # ANSI sadly doesn't entirely work in term-mode
+
+    # This doesn't work at all in python3.5
+
+    repl.color_depth = 'DEPTH_1_BIT'  # Monochrome.
+    #repl.color_depth = 'DEPTH_4_BIT'  # ANSI colors only.
+    #repl.color_depth = 'DEPTH_8_BIT'  # The default, 256 colors.
+    #repl.color_depth = 'DEPTH_24_BIT'  # True color.
 
     # Install custom colorscheme named 'my-colorscheme' and use it.
     """
