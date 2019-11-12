@@ -1,0 +1,5015 @@
+
+# 2018-04-14 16:18:08.776039
++tf.__closure__
+
+# 2018-04-14 16:18:16.022699
++import tf
+
+# 2018-04-14 16:18:23.681224
++import tensorflow as tf
+
+# 2018-04-14 16:54:38.512107
++ls
+
+# 2018-04-14 16:59:17.295965
++import shanepy
+
+# 2018-04-14 16:59:24.801032
++from shanepy import *
+
+# 2018-04-14 16:59:34.499285
++bsh("tm -d nw")
+
+# 2018-04-14 17:23:47.062318
++x = tf.constant([[-2.25 + 4.75j], [-3.25 + 5.75j]])
+
+# 2018-04-14 17:23:59.675472
++tf.abs(x)
+
+# 2018-04-14 17:24:14.217116
++x = tf.constant([[-2.25 + 4.75j], [-3.25 + 5.75j]])
+
+# 2018-04-14 19:22:43.540466
++from shanepy import *
+
+# 2018-04-14 19:22:56.173002
++bsh("tm -d nw")
+
+# 2018-04-14 19:23:56.606020
++bsh("tm -d nw", "testing")
+
+# 2018-04-15 18:28:00.201850
++ls
+
+# 2018-04-15 18:28:02.302931
++ls()
+
+# 2018-04-15 18:28:39.622806
++ls()
+
+# 2018-04-15 18:49:12.440790
++sns.algorithms.division
+
+# 2018-04-15 18:51:52.030467
++x = np.random.normal(size=100)
++sns.distplot(x);
+
+# 2018-04-15 18:51:56.629619
++x = np.random.normal(size=100)
+
+# 2018-04-15 18:51:57.789585
++sns.distplot(x);
+
+# 2018-04-15 18:52:14.887136
++ls()
+
+# 2018-04-15 18:52:56.388164
++%matplotlib inline
+
+# 2018-04-15 18:53:07.852336
++%matplotlib tk
+
+# 2018-04-15 18:53:10.916571
++sns.distplot(x);
+
+# 2018-04-15 18:54:50.369427
++x = np.random.normal(size=100)
+
+# 2018-04-15 18:54:55.150160
++sns.distplot(x);
+
+# 2018-04-15 19:07:14.090039
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:07:15.358763
++sns.distplot(x);
+
+# 2018-04-15 19:07:57.659279
++mpl.use('TkAgg')
+
+# 2018-04-15 19:07:59.825176
++sns.distplot(x);
+
+# 2018-04-15 19:09:07.932317
++%matplotlib inline
+
+# 2018-04-15 19:09:09.924333
++sns.distplot(x);
+
+# 2018-04-15 19:09:13.964606
++%matplotlib tk
+
+# 2018-04-15 19:09:15.308699
++sns.distplot(x);
+
+# 2018-04-15 19:09:24.581701
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:09:25.894524
++sns.distplot(x);
+
+# 2018-04-15 19:09:44.374321
++%matplotlib TkAgg
+
+# 2018-04-15 19:09:49.310427
++%matplotlib tk
+
+# 2018-04-15 19:09:51.758567
++sns.distplot(x);
+
+# 2018-04-15 19:11:16.278507
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:11:18.331449
++sns.distplot(x);
+
+# 2018-04-15 19:11:23.747785
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:11:24.700139
++sns.distplot(x);
+
+# 2018-04-15 19:11:30.940169
++%matplotlib tk
+
+# 2018-04-15 19:11:32.604208
++sns.distplot(x);
+
+# 2018-04-15 19:13:18.197943
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:13:19.274725
++sns.distplot(x);
+
+# 2018-04-15 19:17:59.195394
++pp.pprint([m for module in sys.modules])
+
+# 2018-04-15 19:20:23.834523
++mpl.use('TkCairo', force=True)
+
+# 2018-04-15 19:20:29.212642
++import matplotlib.pyplot as plt
+
+# 2018-04-15 19:20:33.294765
++import matplotlib as mpl
+
+# 2018-04-15 19:20:35.590341
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:20:37.654037
++sns.distplot(x);
+
+# 2018-04-15 19:20:49.533579
++mpl.use('TkAgg', force=True)
+
+# 2018-04-15 19:24:25.592147
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:24:26.636953
++sns.distplot(x);
+
+# 2018-04-15 19:24:41.124820
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:24:41.916531
++sns.distplot(x);
+
+# 2018-04-15 19:25:13.646763
++mpl.pyplot(x)
+
+# 2018-04-15 19:25:22.540407
++mpl.pyplot.plot(x)
+
+# 2018-04-15 19:25:51.932132
++mpl.pyplot.show()
+
+# 2018-04-15 19:26:05.468036
++mpl.pyplot.plot(x)
+
+# 2018-04-15 19:26:07.052141
++mpl.pyplot.show()
+
+# 2018-04-15 19:26:12.764018
++sns.distplot(x);
+
+# 2018-04-15 19:33:45.472161
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:33:46.898366
++sns.distplot(x);
+
+# 2018-04-15 19:34:09.271973
++mpl.backends
+
+# 2018-04-15 19:34:31.919405
++mpl.get_backend()
+
+# 2018-04-15 19:34:36.936782
++sns.distplot(x);
+
+# 2018-04-15 19:34:41.624818
++mpl.pyplot.plot(x)
+
+# 2018-04-15 19:34:43.448791
++mpl.pyplot.show()
+
+# 2018-04-15 19:35:07.275647
++print (matplotlib.rcParams['backend']) 
+
+# 2018-04-15 19:35:49.399906
++import seaborn as sns
+
+# 2018-04-15 19:35:51.936319
++sns.distplot(x);
+
+# 2018-04-15 19:36:00.785184
++%matplotlib tk
+
+# 2018-04-15 19:36:07.441769
++mpl.get_backend()
+
+# 2018-04-15 19:36:12.146068
++sns.distplot(x);
+
+# 2018-04-15 19:37:19.644415
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:37:23.401255
++sns.distplot(x);
+
+# 2018-04-15 19:52:51.759567
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:52:55.004422
++sns.distplot(x);
+
+# 2018-04-15 19:56:13.279228
++x = np.random.normal(size=100)
+
+# 2018-04-15 19:56:15.621725
++sns.distplot(x);
+
+# 2018-04-15 21:05:10.871876
++ls()
+
+# 2018-04-15 21:07:29.754633
++%matplotlib tk
+
+# 2018-04-15 21:07:36.148722
++x = np.random.normal(size=100)
+
+# 2018-04-15 21:07:38.289957
++sns.distplot(x);
+
+# 2018-04-15 21:10:09.293218
++%matplotlib tk
+
+# 2018-04-15 21:11:03.472891
++x = np.random.normal(size=100)
+
+# 2018-04-15 21:11:04.904206
++sns.distplot(x);
+
+# 2018-04-15 21:12:06.559288
++%matplotlib tk
+
+# 2018-04-15 21:12:14.426647
++x = np.random.normal(size=100)
+
+# 2018-04-15 21:12:15.362310
++sns.distplot(x);
+
+# 2018-04-15 21:12:19.490219
++ls()
+
+# 2018-04-15 21:13:32.314972
++%matplotlib tk
+
+# 2018-04-15 21:13:37.019654
++x = np.random.normal(size=100)
+
+# 2018-04-15 21:13:39.899424
++sns.distplot(x);
+
+# 2018-04-15 21:13:54.771727
++x
+
+# 2018-04-15 21:14:46.789660
++ls()
+
+# 2018-04-15 21:14:53.961722
++bsh("tm -d nw", "testing")
+
+# 2018-04-15 21:15:07.872121
++
++import pdb; pdb.set_trace()
+
+# 2018-04-15 21:15:26.045376
++%matplotlib tk
+
+# 2018-04-15 21:15:41.569911
++tf.abs(x)
+
+# 2018-04-15 21:15:43.250045
++x
+
+# 2018-04-15 21:15:57.251132
++import tensorflow as tf
+
+# 2018-04-15 21:16:13.636592
++%matplotlib tk
+
+# 2018-04-15 21:26:21.618695
++import tensorflow as tf
++import tensorflow_hub as hub
++import matplotlib.pyplot as plt
++import numpy as np
++import os
++import pandas as pd
++import re
++import seaborn as sns
++
++# Import the Universal Sentence Encoder's TF Hub module
++embed = hub.Module("https://tfhub.dev/google/universal-sentence-encoder/1")
++
++# Compute a representation for each message, showing various lengths supported.
++word = "Elephant"
++sentence = "I am a sentence for which I would like to get its embedding."
++paragraph = (
++    "Universal Sentence Encoder embeddings also support short paragraphs. "
++    "There is no hard limit on how long the paragraph is. Roughly, the longer "
++    "the more 'diluted' the embedding will be.")
++messages = [word, sentence, paragraph]
++
++# Reduce logging output.
++tf.logging.set_verbosity(tf.logging.ERROR)
++
++with tf.Session() as session:
++  session.run([tf.global_variables_initializer(), tf.tables_initializer()])
++  message_embeddings = session.run(embed(messages))
++
++  for i, message_embedding in enumerate(np.array(message_embeddings).tolist()):
++    print("Message: {}".format(messages[i]))
++    print("Embedding size: {}".format(len(message_embedding)))
++    message_embedding_snippet = ", ".join(
++        (str(x) for x in message_embedding[:3]))
++    print("Embedding: [{}, ...]\n".format(message_embedding_snippet))
+
+# 2018-04-15 21:26:22.256991
++%matplotlib tk
+
+# 2018-04-15 22:34:50.840870
++yols
+
+# 2018-04-15 22:54:57.669172
++ls()
+
+# 2018-04-15 22:56:56.579188
++yo
+
+# 2018-04-15 23:48:57.910684
++ls()
+
+# 2018-04-15 23:59:23.883236
++yo
+
+# 2018-04-16 00:01:02.860991
++%matplotlib tk
+
+# 2018-04-16 00:08:41.220681
++x = np.random.normal(size=100)
+
+# 2018-04-16 00:08:52.306846
++sns.distplot(x);
+
+# 2018-04-16 00:14:54.754172
++sy.vectors.util.decaying()
+
+# 2018-04-16 00:15:02.348499
++sy.vectors.util.decaying()
++import pdb; pdb.set_trace()
+
+# 2018-04-16 00:16:51.175535
++%matplotlib tk
+
+# 2018-04-16 00:17:04.085741
++sy.vectors.util.decaying()
+
+# 2018-04-16 00:17:21.731426
++sy.vectors.util.decaying(10)
+
+# 2018-04-16 00:17:31.851536
++sy.vectors.util.decaying(10, 1, 1)
+
+# 2018-04-16 00:17:39.236367
++[i for i in sy.vectors.util.decaying(10, 1, 1)]
+
+# 2018-04-16 00:19:18.700526
++%matplotlib tk
+
+# 2018-04-16 00:19:22.679625
++ls()
+
+# 2018-04-16 00:19:52.376475
++[i for i in sy.vectors.util.decaying(10, 1, 1)]
+
+# 2018-04-16 00:19:58.928783
++print [i for i in sy.vectors.util.decaying(10, 1, 1)]
+
+# 2018-04-16 00:20:31.984947
++[i for i in sy.vectors.util.decaying(10, 1, 1)]
+
+# 2018-04-16 00:21:59.216299
++%matplotlib tk
+
+# 2018-04-16 02:08:33.739447
++x = np.random.normal(size=100)
+
+# 2018-04-16 02:08:36.168839
++sns.distplot(x);
+
+# 2018-04-16 10:38:40.262619
++import numpy as np
++from scipy.stats import kendalltau
++import seaborn as sns
++sns.set(style="ticks")
++
++rs = np.random.RandomState(11)
++x = rs.gamma(2, size=1000)
++y = -.5 * x + rs.normal(size=1000)
++
++sns.jointplot(x, y, kind="hex", stat_func=kendalltau, color="#4CB391")
+
+# 2018-04-16 11:01:54.342808
++%edit
+
+# 2018-04-16 11:03:19.595078
++import numpy as np
++from scipy.stats import kendalltau
++import seaborn as sns
++sns.set(style="ticks")
++
++rs = np.random.RandomState(11)
++x = rs.gamma(2, size=1000)
++y = -.5 * x + rs.normal(size=1000)
++
++sns.jointplot(x, y, kind="hex", stat_func=kendalltau, color="#4CB391")
+
+# 2018-04-16 11:03:35.907299
++
++import pdb; pdb.set_trace()
+
+# 2018-04-16 11:04:24.495309
++%matplotlib tk
+
+# 2018-04-16 11:04:31.927417
++sdfa
+
+# 2018-04-16 11:14:09.483799
++x = rs.gamma(2, size=1000)
+
+# 2018-04-16 11:14:22.653713
++x = np.random.normal(size=100)
+
+# 2018-04-16 11:50:25.863977
++sns.distplot(x);
+
+# 2018-04-16 11:50:42.930359
++?
+
+# 2018-04-16 13:11:17.988641
++np.random.division
+
+# 2018-04-16 13:11:26.091514
++sns.distplot(x);
+
+# 2018-04-16 14:40:00.364513
++ls()
+
+# 2018-04-16 15:20:26.425867
++%matplotlib tk
+
+# 2018-04-16 15:22:54.539726
++ts
+
+# 2018-04-16 17:54:30.973855
++sns.distplot(x);
+
+# 2018-04-16 17:54:33.573742
++x = np.random.normal(size=100)
+
+# 2018-04-16 17:54:35.130401
++sns.distplot(x);
+
+# 2018-04-16 18:04:21.914676
++%matplotlib tk
+
+# 2018-04-16 18:42:43.112232
++sns.distplot(x);
+
+# 2018-04-16 18:58:45.683611
++ls()
+
+# 2018-04-16 18:58:48.667415
++bsh("tm -d nw", "testing")
+
+# 2018-04-16 21:34:31.942613
++bsh("vim")
+
+# 2018-04-16 21:34:38.470566
++bsh("echo hi")
+
+# 2018-04-16 21:34:45.351196
++bsh("xc")
+
+# 2018-04-16 21:35:01.071577
++print(bsh("xc"))
+
+# 2018-04-16 21:35:03.975732
++print(bsh("xc")[0])
+
+# 2018-04-16 21:35:10.287646
++print(str(bsh("xc")[0]))
+
+# 2018-04-16 21:35:56.887803
++print(str(bsh("xc")[0].decode("utf-8")))
+
+# 2018-04-16 21:56:57.556340
++bash("echo hi")
+
+# 2018-04-16 21:58:22.505320
++x = np.random.normal(size=100)
+
+# 2018-04-16 21:58:25.801876
++sns.distplot(x);
+
+# 2018-04-16 21:58:41.768946
++%matplotlib tk
+
+# 2018-04-16 21:58:44.405513
++x = np.random.normal(size=100)
+
+# 2018-04-16 21:58:46.059706
++sns.distplot(x);
+
+# 2018-04-16 21:59:12.124583
++x = np.random.normal(size=100)
+
+# 2018-04-16 21:59:12.780608
++sns.distplot(x);
+
+# 2018-04-16 21:59:15.796976
++x = np.random.normal(size=100)
+
+# 2018-04-16 21:59:16.468781
++sns.distplot(x);
+
+# 2018-04-16 21:59:19.805178
++x = np.random.normal(size=100)
+
+# 2018-04-16 21:59:20.581116
++sns.distplot(x);
+
+# 2018-04-16 21:59:23.637885
++x = np.random.normal(size=100)
+
+# 2018-04-16 21:59:28.517743
++sns.distplot(x);
+
+# 2018-04-16 21:59:34.854619
++x = np.random.normal(size=100)
+
+# 2018-04-16 21:59:39.182578
++sns.distplot(x);
+
+# 2018-04-16 22:12:27.769903
++bash("echo hi")
+
+# 2018-04-16 22:12:37.066275
++bash("echo hi")[0]
+
+# 2018-04-16 22:42:30.177513
++x = np.random.normal(size=100)
+
+# 2018-04-16 22:42:31.833342
++sns.distplot(x);
+
+# 2018-04-17 02:27:20.232363
++%matplotlib tk
+
+# 2018-04-17 02:51:21.070884
++sns.distplot(x);
+
+# 2018-04-17 02:51:24.036885
++x = np.random.normal(size=100)
+
+# 2018-04-17 02:51:25.980624
++sns.distplot(x);
+
+# 2018-04-17 10:08:53.750997
++%matplotlib tk
+
+# 2018-04-17 10:35:52.997930
++import networkx
+
+# 2018-04-17 10:36:00.594378
++import networkx as nx
+
+# 2018-04-17 10:58:21.978288
++%matplotlib tk
+
+# 2018-04-17 17:12:53.103321
++x = np.random.normal(size=100)
+
+# 2018-04-17 17:12:54.779942
++sns.distplot(x);
+
+# 2018-04-17 18:45:13.720090
++%matplotlib tk
+
+# 2018-04-17 18:47:03.559895
++shlex.quote(bash("cat `which q`")[0])
+
+# 2018-04-17 18:47:32.110250
++bash("tnw v", shlex.quote(bash("cat `which q`")[0]))
+
+# 2018-04-17 19:02:22.211248
++import ssdeep
+
+# 2018-04-17 19:04:38.491897
++import ssdeep as ss
+
+# 2018-04-17 19:05:04.390123
++ss.hash(bash("cat `which q`")[0])
+
+# 2018-04-18 00:04:12.630714
++%matplotlib tk
+
+# 2018-04-18 00:05:17.315592
++ss.hash(bash("cat `which q`")[0])
+
+# 2018-04-18 00:14:56.094800
++%matplotlib tk
+
+# 2018-04-19 03:31:10.528479
++x = np.random.normal(size=100)
+
+# 2018-04-19 03:31:11.854032
++sns.distplot(x);
+
+# 2018-04-19 11:22:08.993898
++%matplotlib tk
+
+# 2018-04-22 11:18:37.348452
++ls
+
+# 2018-04-22 11:18:38.907893
++ls()
+
+# 2018-04-22 19:36:42.521804
++bash("lsautofiles")
+
+# 2018-04-22 19:37:16.660304
++bash("lsautofiles \$NOTES")
+
+# 2018-04-22 19:37:22.361544
++pwd()
+
+# 2018-04-22 19:37:28.715586
++bash("lsautofiles ../")
+
+# 2018-04-22 19:37:34.449990
++bash("lsautofiles ../")[0]
+
+# 2018-04-22 19:38:03.148571
++bash("ls")[0]
+
+# 2018-04-22 19:38:10.251505
++ls()
+
+# 2018-04-22 19:38:34.498536
++print(bash("ls")[0])
+
+# 2018-04-22 19:38:39.234705
++bash("ls")[0]
+
+# 2018-04-22 19:38:53.459688
++print(bash("lsautofiles ../")[0])
+
+# 2018-04-22 19:40:50.016863
++from shanepy import *
+
+# 2018-04-22 19:40:55.030928
++lsautofiles()
+
+# 2018-04-22 19:41:09.584739
++%matplotlib tk
+
+# 2018-04-22 19:41:13.314399
++lsautofiles()
+
+# 2018-04-22 19:41:25.721962
++from shanepy import *
+
+# 2018-04-22 19:41:29.007244
++lsautofiles()
+
+# 2018-04-22 19:46:36.857148
++%matplotlib tk
+
+# 2018-04-22 19:46:55.650606
++lsautofiles()
+
+# 2018-04-22 19:47:07.783114
++import shanepy
+
+# 2018-04-22 19:47:09.484802
++from shanepy import *
+
+# 2018-04-22 19:47:19.532282
++shanepy.ls()
+
+# 2018-04-22 19:47:22.482130
++shanepy.lsautofiles()
+
+# 2018-04-23 10:31:46.194180
++%matplotlib tk
+
+# 2018-04-24 17:46:17.161386
++import this
+
+# 2018-04-25 11:12:49.325634
++%matplotlib tk
+
+# 2018-04-26 00:29:04.712875
++int("5")
+
+# 2018-04-26 00:38:54.724740
++print(endl)
+
+# 2018-04-26 00:39:32.241465
++print(linesep)
+
+# 2018-04-26 11:05:12.449299
++%matplotlib tk
+
+# 2018-04-26 11:59:53.762705
++from github import Github
+
+# 2018-04-26 12:00:56.198102
++import github as gh
+
+# 2018-04-26 13:20:04.400462
++import pandas_gbq
+
+# 2018-04-26 13:54:40.850168
++%matplotlib tk
+
+# 2018-04-27 10:25:37.961974
++np.loadtxt("in.txt")
+
+# 2018-04-27 10:26:16.382515
++np.loadtxt("in.txt").T
+
+# 2018-04-27 10:54:48.814615
++np.loadtxt("in.txt").shape[0]
+
+# 2018-04-27 10:54:56.143229
++np.loadtxt("in.txt").T.shape[0]
+
+# 2018-04-27 10:55:30.249490
++np.loadtxt("out.txt").T
+
+# 2018-04-27 10:55:34.909664
++np.loadtxt("out.txt").T.shape[0]
+
+# 2018-04-27 11:00:00.245589
++np.loadtxt("out.txt", dtype=int).reshape((-1, 1))
+
+# 2018-04-27 11:00:11.896481
++np.loadtxt("out.txt", dtype=int).reshape((-1, 1)).shape[0]
+
+# 2018-04-27 11:00:17.191311
++np.loadtxt("out.txt", dtype=int).reshape((-1, 1)).T.shape[0]
+
+# 2018-04-27 11:00:23.064699
++np.loadtxt("out.txt", dtype=int).reshape((-1, 1)).T
+
+# 2018-04-27 13:10:33.087816
++import matplotlib, numpy
++matplotlib.use('Agg')
++import matplotlib.pyplot as plt
++fig=plt.figure(figsize=(4,2))
++x=numpy.linspace(-15,15)
++plt.plot(numpy.sin(x)/x)
++wfig.tight_layout()
++plt.savefig('figures/python-matplot-fig.png')
+
+# 2018-04-27 15:55:04.403348
++tf.logging.set_verbosity(tf.logging.ERROR)
+
+# 2018-04-27 20:16:59.874565
++%matplotlib tk
+
+# 2018-04-30 08:53:01.386720
++import py2hy
+
+# 2018-04-30 08:53:11.060237
++py2hy.hy
+
+# 2018-04-30 09:11:57.387426
++tf.logging.set_verbosity(tf.logging.ERROR)
+
+# 2018-04-30 09:11:58.441801
++ls
+
+# 2018-04-30 09:12:00.122773
++ls()
+
+# 2018-04-30 09:12:03.051251
++dir()
+
+# 2018-04-30 09:12:04.097685
++ls
+
+# 2018-04-30 09:12:07.019729
++ls()
+
+# 2018-04-30 09:12:38.854959
++ipy()
+
+# 2018-04-30 09:14:11.053093
++%matplotlib tk
+
+# 2018-04-30 10:11:40.450971
++bash("balance.sh")
+
+# 2018-04-30 10:11:45.896971
++bash("balance.sh")[0]
+
+# 2018-04-30 10:12:07.141133
++bash("balance.sh")[0].splitlines()
+
+# 2018-04-30 10:13:07.214195
++%matplotlib tk
+
+# 2018-04-30 10:13:10.665789
++bash("balance.sh")[0].splitlines()
+
+# 2018-04-30 10:13:13.915267
++b("balance.sh")[0].splitlines()
+
+# 2018-04-30 10:13:43.807323
++b("balance.sh")[0].splitlines()[2]
+
+# 2018-04-30 10:13:49.183753
++b("balance.sh")[0].splitlines()[1]
+
+# 2018-04-30 10:14:17.635285
++b("s field 2", b("balance.sh")[0].splitlines()[1])
+
+# 2018-04-30 10:15:16.202103
++b("s field 2 | sed 's/.*\([0-9.]\+/).*/\1/g", b("balance.sh")[0].splitlines()[1])
+
+# 2018-04-30 10:15:41.232970
++b("s field 2 | sed 's/.*\([0-9.]\+/).*/\1/g'", b("balance.sh")[0].splitlines()[1])
+
+# 2018-04-30 10:15:56.896491
++b("s field 2 | sed 's/.*\\([0-9.]\\+/).*/\\1/g'", b("balance.sh")[0].splitlines()[1])
+
+# 2018-04-30 10:16:17.609169
++b("s field 2 | sed 's/.*\\([0-9.]\\+/\\).*/\\1/'", b("balance.sh")[0].splitlines()[1])
+
+# 2018-04-30 10:16:30.033207
++b("s field 2 | sed 's/.*\([0-9.]\+/\).*/\1/'", b("balance.sh")[0].splitlines()[1])
+
+# 2018-04-30 10:17:01.618411
++b("s field 2", b("balance.sh")[0].splitlines()[1])
+
+# 2018-04-30 10:18:18.528687
++b("echo hi ")
+
+# 2018-04-30 10:18:22.073125
++b("echo hi ")[0]
+
+# 2018-04-30 10:18:24.120715
++ls
+
+# 2018-04-30 10:18:25.433418
++ls()
+
+# 2018-04-30 10:18:36.201921
++b("cat", ls())
+
+# 2018-04-30 10:19:07.962878
++ls()
+
+# 2018-04-30 10:19:11.661158
++print(ls())
+
+# 2018-04-30 10:21:27.143419
++%matplotlib tk
+
+# 2018-04-30 10:21:30.516069
++ls()
+
+# 2018-04-30 10:21:34.339830
++print(ls())
+
+# 2018-04-30 10:21:57.262287
++pwd()
+
+# 2018-04-30 10:22:47.942483
++%matplotlib tk
+
+# 2018-04-30 10:22:51.097690
++d="yo"
+
+# 2018-04-30 10:22:52.633615
++pwd()
+
+# 2018-04-30 10:22:55.914038
++sl()
+
+# 2018-04-30 10:23:42.358315
++locals()
+
+# 2018-04-30 10:24:26.466846
++pickle.dumps(locals())
+
+# 2018-04-30 10:24:31.924069
++locals()
+
+# 2018-04-30 10:24:35.330953
++pickle.dumps(locals())
+
+# 2018-04-30 10:24:46.776859
++pickle.dumps("hi")
+
+# 2018-04-30 10:24:49.276510
++pickle.dumps(locals())
+
+# 2018-04-30 10:29:51.953609
++ipy()
+
+# 2018-04-30 10:29:56.100752
++ls()
+
+# 2018-04-30 10:30:04.170517
++print(ls())
+
+# 2018-04-30 10:30:06.402173
++ls()
+
+# 2018-04-30 10:30:28.285701
++pwd()
+
+# 2018-04-30 10:30:49.103544
++ls().splitlines()
+
+# 2018-04-30 10:33:29.221329
++%matplotlib tk
+
+# 2018-04-30 10:34:20.209946
++ls()
+
+# 2018-04-30 10:34:22.975431
++pwd()
+
+# 2018-04-30 10:34:26.839675
++ls()
+
+# 2018-04-30 10:34:29.574647
++ls()[2]
+
+# 2018-04-30 10:34:32.606829
++ls()[:2]
+
+# 2018-04-30 10:34:35.446789
++ls()[:5]
+
+# 2018-04-30 10:34:38.934416
++ls()[5:]
+
+# 2018-04-30 10:34:47.325729
++ls()[:5:]
+
+# 2018-04-30 10:34:55.293151
++ls()[:5:2]
+
+# 2018-04-30 10:35:10.485263
++ls()[5:2]
+
+# 2018-04-30 10:35:14.396866
++ls()[1:2]
+
+# 2018-04-30 10:35:16.757100
++ls()[1:5]
+
+# 2018-04-30 10:35:35.416346
++ls()[:5]
+
+# 2018-04-30 10:35:38.275689
++ls()[1:5]
+
+# 2018-04-30 10:35:43.212401
++ls()[1:]
+
+# 2018-04-30 10:35:46.908212
++ls()[1:5]
+
+# 2018-04-30 10:35:52.468067
++ls()[1:5:]
+
+# 2018-04-30 10:35:58.836203
++ls()[:5]
+
+# 2018-04-30 10:36:05.611412
++ls()[-1:5]
+
+# 2018-04-30 10:36:07.412408
++ls()[-1:]
+
+# 2018-04-30 10:36:20.122445
++ls()[:-1]
+
+# 2018-04-30 10:36:23.202517
++ls()[:]
+
+# 2018-04-30 10:36:26.251112
++ls()[1:1]
+
+# 2018-04-30 10:36:31.659162
++ls()[1:]
+
+# 2018-04-30 10:36:35.026136
++ls()[1:5]
+
+# 2018-04-30 10:36:42.866174
++ls()[1::5]
+
+# 2018-04-30 10:36:50.063675
++ls()[1::]
+
+# 2018-04-30 10:36:51.738280
++ls()[1::1]
+
+# 2018-04-30 10:36:54.778331
++ls()[1::0]
+
+# 2018-04-30 10:36:58.226152
++ls()[1::1]
+
+# 2018-04-30 10:36:59.653502
++ls()[1::0]
+
+# 2018-04-30 10:37:03.953892
++ls()[1::1]
+
+# 2018-04-30 10:37:05.893783
++ls()[1::2]
+
+# 2018-04-30 10:37:13.283629
++ls()[::2]
+
+# 2018-04-30 10:37:20.051283
++ls()[:]
+
+# 2018-04-30 10:37:21.891735
++ls()[::2]
+
+# 2018-04-30 10:37:23.977917
++ls()[:]
+
+# 2018-04-30 10:37:25.659336
++ls()[::2]
+
+# 2018-04-30 10:37:52.485078
++ls()[1::2]
+
+# 2018-04-30 10:37:56.647818
++ls()[:]
+
+# 2018-04-30 10:38:20.826950
++ls()[::]
+
+# 2018-04-30 10:38:24.997086
++ls()[1::]
+
+# 2018-04-30 10:38:52.588226
++ls()[1:-1]
+
+# 2018-04-30 10:39:22.340465
++ls()[:5]
+
+# 2018-04-30 10:39:31.132487
++ls()[:5:]
+
+# 2018-04-30 10:39:36.396904
++ls()[:5:2]
+
+# 2018-04-30 10:40:26.662629
++ls()[1:5]
+
+# 2018-04-30 10:40:58.768547
++ls()[1:5:2]
+
+# 2018-04-30 10:41:07.872785
++ls()[:5:2]
+
+# 2018-04-30 10:41:30.009468
++ls()[::2]
+
+# 2018-04-30 10:41:57.114594
++ls()[:]
+
+# 2018-04-30 10:42:01.546894
++ls()[::]
+
+# 2018-04-30 10:43:21.870744
++help(ls)
+
+# 2018-04-30 10:51:14.643827
++ls()
+
+# 2018-04-30 10:51:17.251245
++dir()
+
+# 2018-04-30 10:51:19.963653
++pwd()
+
+# 2018-04-30 10:51:30.616367
++ls()[2:]
+
+# 2018-04-30 10:51:35.600592
++ls()[2:3]
+
+# 2018-04-30 10:51:44.276566
++ls()[2:-3]
+
+# 2018-04-30 10:51:57.365982
++ls()[1:-1]
+
+# 2018-04-30 10:52:01.654540
++ls()[1:-1][1:-1]
+
+# 2018-04-30 10:52:05.461590
++ls()[1:-1][1:-1][1:-1]
+
+# 2018-04-30 11:11:59.895771
++hyp.plot(list_of_arrays, '.', group=list_of_labels)
+
+# 2018-04-30 11:54:58.904665
++%matplotlib tk
+
+# 2018-04-30 12:27:20.155743
++ls()[:5]
+
+# 2018-04-30 12:27:53.668870
++r = ls()
+
+# 2018-04-30 12:28:02.557761
++r[0:1]
+
+# 2018-04-30 12:28:08.989964
++r[0:1] = 5
+
+# 2018-04-30 12:28:50.277806
++r[0:1] = 'yo'
+
+# 2018-04-30 12:28:52.789726
++r
+
+# 2018-04-30 12:29:00.581588
++r[0:5] = 'yo'
+
+# 2018-04-30 12:29:02.813211
++r
+
+# 2018-04-30 12:29:17.103333
++r[0:5] = 'yoyo'
+
+# 2018-04-30 12:29:18.806907
++r
+
+# 2018-04-30 12:33:22.741497
++np.tanh([5,3,2,1])
+
+# 2018-04-30 12:35:44.606508
++np.dot([5,2],[2,3])
+
+# 2018-04-30 12:41:49.219354
++np.sum([2.3,1.2,1.1])
+
+# 2018-04-30 12:41:51.313952
++sum([2.3,1.2,1.1])
+
+# 2018-04-30 14:12:31.537452
++b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")
+
+# 2018-04-30 14:15:04.719692
++mpl.use('TkAgg', force=True)
+
+# 2018-04-30 14:15:15.474842
++import matplotlib.pyplot as plt
+
+# 2018-04-30 14:15:22.198929
++fig=plt.figure(figsize=(4,2))
+
+# 2018-04-30 14:15:30.271641
++x=numpy.linspace(-15,15)
+
+# 2018-04-30 14:15:34.447446
++plt.plot(numpy.sin(x)/x)
+
+# 2018-04-30 14:17:25.886515
++data = np.genfromtxt('e:\dir1\datafile.csv', delimiter=',', skip_header=10, skip_footer=10, names=['x', 'y', 'z'])
+
+# 2018-04-30 14:17:43.989731
++data = b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")
+
+# 2018-04-30 14:19:02.477946
++data = np.genfromtxt(b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh"), delimiter=',', skip_header=10, skip_footer=10, names=['time', 'error'])
+
+# 2018-04-30 14:19:20.214793
++data = np.genfromtxt(b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh").splitlines(), delimiter=',', skip_header=10, skip_footer=10, names=['time', 'error'])
+
+# 2018-04-30 14:19:27.565709
++data = np.genfromtxt(b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines(), delimiter=',', skip_header=10, skip_footer=10, names=['time', 'error'])
+
+# 2018-04-30 14:19:30.181011
++data
+
+# 2018-04-30 14:21:11.629423
++data = np.genfromtxt(b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines(), delimiter=',', skip_header=10, skip_footer=10, names=['time', 'error'])
+
+# 2018-04-30 14:21:16.309164
++plt.plot(data['time'], data['error'])
+
+# 2018-04-30 14:21:34.227779
++fig=plt.figure(figsize=(4,2))
+
+# 2018-04-30 14:22:15.709312
++plt.plot(data['time'], data['error'])
+
+# 2018-04-30 14:23:51.910521
++b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh | xc")
+
+# 2018-04-30 14:25:50.521596
++b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")
+
+# 2018-04-30 14:32:38.476893
++data = np.genfromtxt(b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines(), delimiter=',', skip_header=10, skip_footer=10, names=['time', 'error'])
+
+# 2018-04-30 14:33:55.615569
++data = np.genfromtxt(b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines(), delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 15:03:27.040172
++b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines()
+
+# 2018-04-30 15:43:36.759141
++%matplotlib tk
+
+# 2018-04-30 15:47:43.561679
++b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines()
+
+# 2018-04-30 16:07:44.261564
++data = np.genfromtxt(b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines(), delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 16:15:53.695719
++%matplotlib tk
+
+# 2018-04-30 16:32:22.170527
++b("echo hi ")
+
+# 2018-04-30 16:32:28.249023
++tf.logging.set_verbosity(tf.logging.ERROR)
+
+# 2018-04-30 16:41:18.523951
++b("echo hi ")
+
+# 2018-04-30 16:41:20.018731
++ls()
+
+# 2018-04-30 16:41:22.147904
++ls()[:5]
+
+# 2018-04-30 16:41:24.523498
++ls
+
+# 2018-04-30 16:41:25.870271
++ls()
+
+# 2018-04-30 16:47:51.543174
++b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines()
+
+# 2018-04-30 18:27:05.668305
++range(100)
+
+# 2018-04-30 18:27:10.411166
++[i for i in range(100)]
+
+# 2018-04-30 18:27:21.478986
++[i for i in range(1,100,1)]
+
+# 2018-04-30 18:29:45.201884
++%matplotlib tk
+
+# 2018-04-30 18:30:03.195138
++tv([i for i in range(1,100,1)])
+
+# 2018-04-30 18:30:22.253652
++tv([i for i in range(1,101,1)])
+
+# 2018-04-30 18:39:01.151072
++b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/experiments.sh")[0].splitlines()
+
+# 2018-04-30 18:39:28.834441
++b("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/momentum-3-bit-parity-sigmoid.time_vs_error.log")[0].splitlines()
+
+# 2018-04-30 18:39:38.210634
++b("cat /home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/momentum-3-bit-parity-sigmoid.time_vs_error.log")[0].splitlines()
+
+# 2018-04-30 18:40:59.124490
++b("cat /home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-3-bit-parity-sigmoid.time_vs_error.log")[0].splitlines()
+
+# 2018-04-30 18:41:32.063394
++data = np.genfromtxt(b("cat /home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-3-bit-parity-sigmoid.time_vs_error.log")[0].splitlines(), delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 18:41:53.841414
++plt.plot(data['time'], data['error'])
+
+# 2018-04-30 18:44:02.249463
++len(data)
+
+# 2018-04-30 18:44:53.982324
++plt.plot(data[:-5000]['time'], data[:-5000]['error'])
+
+# 2018-04-30 18:45:18.717531
++plt.plot(data[:-3000]['time'], data[:-3000]['error'])
+
+# 2018-04-30 18:45:29.462536
++plt.plot(data[:-8000]['time'], data[:-8000]['error'])
+
+# 2018-04-30 18:45:56.108667
++plt.plot(data[:-6000]['time'], data[:-6000]['error'])
+
+# 2018-04-30 18:46:12.895459
++p = plt.plot(data[:-6000]['time'], data[:-6000]['error'])
+
+# 2018-04-30 18:48:17.953195
++data = np.genfromtxt(b("cat /home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-3-bit-parity-sigmoid.time_vs_error.log")[0].splitlines(), delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 18:51:13.416862
++data = np.genfromtxt("regularization-3-bit-parity-sigmoid.time_vs_error.log", delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 18:51:38.062132
++data = np.genfromtxt("$DUMP$HOME/notes2018/projects/nn-assignment-1/code/lab/results/regularization-3-bit-parity-sigmoid.time_vs_error.log", delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 18:51:45.230664
++data = np.genfromtxt("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-3-bit-parity-sigmoid.time_vs_error.log", delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 18:51:47.420328
++data
+
+# 2018-04-30 18:51:55.996147
++len(data)
+
+# 2018-04-30 18:52:06.956682
++p = plt.plot(data[:-6000]['time'], data[:-6000]['error'])
+
+# 2018-04-30 18:52:12.452411
++matplotlib.use('Agg')
+
+# 2018-04-30 18:52:16.541207
++p = plt.plot(data[:-6000]['time'], data[:-6000]['error'])
+
+# 2018-04-30 18:52:57.498625
++import matplotlib as mpl
++import matplotlib.pyplot as plt
++
++mpl.use('Agg')
+
+# 2018-04-30 18:53:29.890809
++%matplotlib tk
+
+# 2018-04-30 18:56:17.943727
++p = plt.plot(data[:-6000]['time'], data[:-6000]['error'])
+
+# 2018-04-30 18:56:30.474382
++data = np.genfromtxt("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-3-bit-parity-sigmoid.time_vs_error.log", delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 18:56:34.737319
++p = plt.plot(data[:-6000]['time'], data[:-6000]['error'])
+
+# 2018-04-30 19:36:24.058272
++data = np.genfromtxt("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/learning-rate-100i-learning-rate-0-0-3-bit-parity-sigmoid.1.log", delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 19:36:42.693115
++p = plt.plot(data['time'], data['error'])
+
+# 2018-04-30 19:36:51.250867
++data = np.genfromtxt("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/learning-rate-100i-learning-rate-0-0-3-bit-parity-sigmoid.1.log", delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 19:36:52.887667
++data
+
+# 2018-04-30 19:36:57.257379
++print(data)
+
+# 2018-04-30 19:37:47.443882
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/learning-rate-100i-learning-rate-0-0-3-bit-parity-sigmoid.time_vs_error.log"
+
+# 2018-04-30 19:38:00.211503
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 19:38:03.692001
++p = plt.plot(data['time'], data['error'])
+
+# 2018-04-30 19:38:21.821271
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/learning-rate-100i-learning-rate-0-1-3-bit-parity-sigmoid.time_vs_error.log"
+
+# 2018-04-30 19:38:25.860588
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 19:38:27.617177
++p = plt.plot(data['time'], data['error'])
+
+# 2018-04-30 19:38:38.892791
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/learning-rate-100i-learning-rate-0-2-3-bit-parity-sigmoid.time_vs_error.log"
+
+# 2018-04-30 19:38:41.077966
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 19:38:42.572347
++p = plt.plot(data['time'], data['error'])
+
+# 2018-04-30 19:39:35.703644
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-100i-regularization-0-0-xor-sigmoid.time_vs_error.log"
+
+# 2018-04-30 19:39:37.990889
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 19:39:39.980263
++p = plt.plot(data['time'], data['error'])
+
+# 2018-04-30 19:41:19.388024
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-0-0-100i-xor-sigmoid.time_vs_error.log"
+
+# 2018-04-30 19:41:22.017463
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 19:41:23.764680
++p = plt.plot(data['time'], data['error'])
+
+# 2018-04-30 19:42:37.934832
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-0-1-100i-xor-sigmoid.time_vs_error.log"
+
+# 2018-04-30 19:42:39.623522
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-04-30 19:42:41.803225
++p = plt.plot(data['time'], data['error'])
+
+# 2018-04-30 20:12:18.227177
++[5, 4, 2] - [1,2,1]
+
+# 2018-04-30 20:32:42.805683
++a[1,2,3,4,5]
+
+# 2018-04-30 20:32:45.675722
++a=[1,2,3,4,5]
+
+# 2018-04-30 20:32:46.691851
++a
+
+# 2018-04-30 20:32:53.872990
++a[0:5]
+
+# 2018-04-30 20:32:59.220264
++a[0:5] = [1,2,3,4,5,6]
+
+# 2018-04-30 20:33:00.635059
++a
+
+# 2018-04-30 20:33:18.619864
++a=[1,2,3,4,5]
+
+# 2018-04-30 20:33:28.737640
++a[0:5] = [1,2,3,4]
+
+# 2018-04-30 20:33:29.764812
++a
+
+# 2018-04-30 20:57:40.355250
++from sympy import *
+
+# 2018-04-30 20:58:54.469724
++%matplotlib tk
+
+# 2018-04-30 20:59:13.677803
++sm.diff(sin(5))
+
+# 2018-04-30 20:59:29.812408
++x = sm.Symbol('x')
+
+# 2018-04-30 20:59:37.618816
++sm.diff(sin(x))
+
+# 2018-05-01 00:49:44.629868
++[5,4,2] - 1
+
+# 2018-05-01 00:49:52.393613
++np.array([5,4,2]) - 1
+
+# 2018-05-01 03:29:46.365953
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-0-0-100i-iris-sigmoid.time_vs_error.log"
+
+# 2018-05-01 03:29:51.021619
++p = plt.plot(data['time'], data['error'])
+
+# 2018-05-01 03:29:55.678098
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-05-01 03:29:57.356962
++p = plt.plot(data['time'], data['error'])
+
+# 2018-05-01 03:54:10.577376
++np.asmatrix([5,3,2,1])
+
+# 2018-05-01 03:54:15.360831
++np.asmatrix(np.asmatrix([5,3,2,1]))
+
+# 2018-05-01 05:06:51.896324
++%matplotlib tk
+
+# 2018-05-01 16:36:59.169335
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-0-0-10000i-iris-sigmoid.time_vs_error.log"
+
+# 2018-05-01 16:37:10.576477
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-05-01 16:37:14.710577
++p = plt.plot(data['time'], data['error'])
+
+# 2018-05-01 17:16:36.655600
++fp="/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-0-0-10000i-iris-sigmoid.time_vs_error.log"
+
+# 2018-05-01 17:16:39.675967
++data = np.genfromtxt(fp, delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-05-01 17:19:29.442715
++data = np.genfromtxt("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-3-bit-parity-sigmoid.time_vs_error.log", delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-05-01 17:23:21.873981
++import numpy as np
++import matplotlib as mpl
++import matplotlib.pyplot as plt
+
+# 2018-05-01 17:23:32.089457
++fig=plt.figure(figsize=(4,2))
+
+# 2018-05-01 17:23:43.019877
++data = np.genfromtxt("/home/shane/dump/home/shane/notes2018/projects/nn-assignment-1/code/lab/results/regularization-0-0-1000i-iris-sigmoid.time_vs_error.log", delimiter=',', skip_header=0, skip_footer=0, names=['time', 'error'])
+
+# 2018-05-01 17:23:50.074367
++p = plt.plot(data['time'], data['error'])
+
+# 2018-05-01 17:23:55.512983
++fig.tight_layout()
+
+# 2018-05-01 17:24:01.305782
++p.savefig('figures/regularization-0-0-1000i-iris-sigmoid.time_vs_error.png')
+
+# 2018-05-01 20:56:16.494205
++%matplotlib tk
+
+# 2018-05-01 22:10:16.949129
++tf.logging.set_verbosity(tf.logging.ERROR)
+
+# 2018-05-01 23:33:01.716161
++  tf.app.run()
+
+# 2018-05-02 00:05:18.537396
++tf.logging.set_verbosity(tf.logging.ERROR)
+
+# 2018-05-02 00:08:44.223180
++%matplotlib tk
+
+# 2018-05-02 00:08:53.253386
++ls
+
+# 2018-05-02 00:08:58.911018
++import numpy as np
+
+# 2018-05-02 00:09:04.141377
++%matplotlib tk
+
+# 2018-05-04 15:38:37.835226
++ls
+
+# 2018-05-04 15:39:25.851955
++from shanepy import *
+
+# 2018-05-04 15:39:28.341165
++ls
+
+# 2018-05-04 15:39:36.426478
++a = [5,2,3]
+
+# 2018-05-04 15:39:46.715807
++b("fpvd",a)
+
+# 2018-05-04 15:39:54.972457
++b("v",a)
+
+# 2018-05-04 15:40:03.474937
++tv([i for i in range(1,101,1)])
+
+# 2018-05-04 19:22:43.106398
++%matplotlib tk
+
+# 2018-05-08 18:59:04.982669
++tf.logging.set_verbosity(tf.logging.ERROR)
+
+# 2018-05-08 18:59:05.758910
++ls
+
+# 2018-05-08 18:59:07.799425
++dir()
+
+# 2018-05-08 18:59:17.391395
++ls()
+
+# 2018-05-08 18:59:34.816946
++bash("vim")
+
+# 2018-05-08 18:59:40.768206
++bash("tv")
+
+# 2018-05-08 18:59:48.574561
++ls()
+
+# 2018-05-08 19:34:17.127640
++%matplotlib tk
+
+# 2018-05-11 18:09:38.701225
++import pandas_gbq as pbq
+
+# 2018-05-11 18:10:30.899842
++pbq.read_gbq("SELECT b.id, b.url, b.name, b.forked_from FROM ( SELECT project_id FROM [ghtorrent-bq:ght.project_languages] WHERE language IN ('c', 'c++')) AS a JOIN ( SELECT id, url, name, forked_from, updated_at FROM [ghtorrent-bq:ght.projects]) AS b ON a.project_id = b.id LIMIT 5")
+
+# 2018-05-11 18:11:16.947525
++pbq.read_gbq("SELECT b.id, b.url, b.name, b.forked_from FROM ( SELECT project_id FROM ghtorrent-bq.ght.project_languages WHERE language IN ('c', 'c++')) AS a JOIN ( SELECT id, url, name, forked_from, updated_at FROM [ghtorrent-bq:ght.projects]) AS b ON a.project_id = b.id LIMIT 5")
+
+# 2018-05-11 18:11:25.693549
++pbq.read_gbq("SELECT b.id, b.url, b.name, b.forked_from FROM ( SELECT project_id FROM ghtorrent-bq.ght.project_languages WHERE language IN ('c', 'c++')) AS a JOIN ( SELECT id, url, name, forked_from, updated_at FROM ghtorrent-bq:ght.projects) AS b ON a.project_id = b.id LIMIT 5")
+
+# 2018-05-11 18:11:35.307769
++pbq.read_gbq("SELECT b.id, b.url, b.name, b.forked_from FROM ( SELECT project_id FROM ghtorrent-bq.ght.project_languages WHERE language IN ('c', 'c++')) AS a JOIN ( SELECT id, url, name, forked_from, updated_at FROM [ghtorrent-bq:ght.projects]) AS b ON a.project_id = b.id LIMIT 5")
+
+# 2018-05-11 18:18:08.367588
++pbq.read_gbq("SELECT b.id, b.url, b.name, b.forked_from FROM ( SELECT project_id FROM [ghtorrent-bq:ght.project_languages] WHERE language IN ('c', 'c++')) AS a JOIN ( SELECT id, url, name, forked_from, updated_at FROM [ghtorrent-bq:ght.projects]) AS b ON a.project_id = b.id LIMIT 5", "divine-quest-169808")
+
+# 2018-05-12 12:05:05.729517
++%matplotlib tk
+
+# 2018-05-23 15:52:41.958955
++import sys; sys.exit(sys.version < "2.6")
+
+# 2018-05-23 15:52:51.130596
++import sys; sys.version < "2.6"
+
+# 2018-05-23 15:52:55.066488
++import sys; sys.version
+
+# 2018-05-24 10:05:59.542479
++%matplotlib tk
+
+# 2018-05-25 18:46:35.524284
++bash("vim")
+
+# 2018-05-25 21:12:46.815942
++%matplotlib tk
+
+# 2018-05-28 12:51:32.922487
++import spacy
+
+# 2018-05-28 12:51:37.778922
++nlp = spacy.load('en')
+
+# 2018-05-29 18:08:03.320135
++%matplotlib tk
+
+# 2018-06-05 13:36:01.919160
++"hi".capitalize
+
+# 2018-06-05 13:36:05.823336
++"hi".capitalize()
+
+# 2018-06-05 13:36:20.537055
++"hi".center(2)
+
+# 2018-06-05 13:36:23.536089
++"hi".center(10)
+
+# 2018-06-05 13:42:04.869041
++int.bit_length()
+
+# 2018-06-05 13:42:09.253938
++(35).bit_length()
+
+# 2018-06-05 13:42:29.597143
++(35).bit_length
+
+# 2018-06-05 13:42:32.093211
++(35).bit_length()
+
+# 2018-06-05 13:42:58.845860
++(5).conjugate()
+
+# 2018-06-05 13:43:02.591219
++(-5).conjugate()
+
+# 2018-06-05 14:20:17.282031
++%matplotlib tk
+
+# 2018-06-16 22:47:19.275275
++from PIL import Image
+
+# 2018-06-17 13:02:11.591579
++np.load("/home/shane/var/smulliga/source/git/thomasahle/codenames/dataset/glove.6B.300d.npy")
+
+# 2018-06-17 13:02:30.623677
++o(np.load("/home/shane/var/smulliga/source/git/thomasahle/codenames/dataset/glove.6B.300d.npy"))
+
+# 2018-06-17 16:16:57.632964
++vecs = np.load("/home/shane/var/smulliga/source/git/thomasahle/codenames/dataset/glove.6B.300d.npy")
+
+# 2018-06-17 16:16:59.773348
++vecs
+
+# 2018-06-17 16:17:03.852662
++o(vecs)
+
+# 2018-06-17 16:17:46.162981
++type(vecs)
+
+# 2018-06-17 16:18:09.650521
++o("/home/shane/var/smulliga/source/git/thomasahle/codenames/dataset/glove.6B.300d.npy")
+
+# 2018-06-17 16:18:37.209493
++r(o("/home/shane/var/smulliga/source/git/thomasahle/codenames/dataset/glove.6B.300d.npy"))
+
+# 2018-06-17 16:36:28.550623
++v(o("/home/shane/var/smulliga/source/git/thomasahle/codenames/dataset/glove.6B.300d.npy"))
+
+# 2018-06-17 17:11:43.259606
++%matplotlib tk
+
+# 2018-06-17 17:12:10.770726
++vecs = np.load("/home/shane/var/smulliga/source/git/thomasahle/codenames/dataset/glove.6B.300d.npy")
+
+# 2018-06-17 17:12:16.578872
++v(vecs)
+
+# 2018-06-17 17:24:40.326320
++bash("vim")
+
+# 2018-06-17 23:14:44.821194
++%matplotlib tk
+
+# 2018-06-20 17:46:12.631969
++import fasttext as ft
+
+# 2018-06-21 09:58:37.230864
++%matplotlib tk
+
+# 2018-06-22 16:09:32.659447
++ls
+
+# 2018-06-22 16:09:34.027748
++ls()
+
+# 2018-06-22 16:19:04.230702
++%matplotlib tk
+
+# 2018-06-22 16:19:15.790279
++bash("ls")[0].rstrip('\n').splitlines()
+
+# 2018-06-22 16:19:18.684779
++ls()
+
+# 2018-06-23 16:25:12.243393
++%matplotlib tk
+
+# 2018-07-09 12:24:03.199933
++import torch.nn as nn
+
+# 2018-07-09 12:47:54.826880
++%matplotlib tk
+
+# 2018-07-09 12:48:02.377389
++import torch
+
+# 2018-07-09 12:48:25.631951
++import torch.nn as nn
+
+# 2018-07-09 12:49:14.652677
++import torch.nn as nn
+
+# 2018-07-09 12:49:27.209540
++%matplotlib tk
+
+# 2018-07-09 13:01:44.516201
++import torch.nn as nn
+
+# 2018-07-09 13:01:48.858613
++import torch
+
+# 2018-07-09 14:53:00.182555
++import dward
+
+# 2018-07-09 14:53:02.183594
++import edward
+
+# 2018-07-09 19:45:36.746034
++ss.hash(bash("cat `which q`")[0])
+
+# 2018-07-11 20:20:47.672529
++%matplotlib tk
+
+# 2018-07-23 17:14:58.265816
++from google.cloud import language
+
+# 2018-07-23 17:16:57.287847
++from google.cloud.language import enums
++from google.cloud.language import types
+
+# 2018-07-23 17:19:05.805753
++from google.cloud import pubsub
+
+# 2018-07-23 17:22:16.309907
++from google.cloud import bigtable
+
+# 2018-07-23 17:22:31.526246
++from google.cloud import vision
+
+# 2018-07-25 14:41:10.504404
++%matplotlib tk
+
+# 2018-07-25 15:53:54.190764
++import spacy
+
+# 2018-07-25 15:54:48.004065
++nlp = spacy.load("en")
+
+# 2018-07-25 16:03:19.677091
++text = "hi yo"
+
+# 2018-07-25 16:03:23.107169
++doc = nlp(unicode(text, "utf-8"))
+
+# 2018-07-25 16:03:32.068899
++import unicode
+
+# 2018-07-25 16:03:40.419241
++import sys
+
+# 2018-07-25 16:03:42.202602
++doc = nlp(unicode(text, "utf-8"))
+
+# 2018-07-26 00:26:30.698407
++%matplotlib tk
+
+# 2018-07-30 17:25:15.614236
++import gnomekeyring
+
+# 2018-07-30 19:18:08.108592
++%matplotlib tk
+
+# 2018-07-31 00:28:27.567933
++tf.logging.set_verbosity(tf.logging.ERROR)
+
+# 2018-07-31 00:28:29.959260
++ls
+
+# 2018-07-31 17:12:50.561034
++%matplotlib tk
+
+# 2018-08-06 16:33:44.055765
++tf.abs
+
+# 2018-08-06 22:45:44.525594
++%matplotlib tk
+
+# 2018-08-16 23:10:24.697672
++tf.abs
+
+# 2018-08-16 23:10:30.545756
++tf.abs(-2)
+
+# 2018-08-16 23:10:38.282101
++int(tf.abs(-2))
+
+# 2018-08-16 23:10:43.592565
++tf.abs(-2)
+
+# 2018-08-16 23:10:47.373605
++t=tf.abs(-2)
+
+# 2018-08-16 23:10:52.281885
++t.name
+
+# 2018-08-16 23:11:02.697200
++t.shape()
+
+# 2018-08-16 23:11:04.562521
++t.shape
+
+# 2018-08-17 14:37:50.943853
++%matplotlib tk
+
+# 2018-08-29 01:11:13.077741
++import dopamine
+
+# 2018-08-29 01:11:42.598785
++from dopamine import *
+
+# 2018-08-29 01:11:47.159812
++dopamine.name
+
+# 2018-08-29 01:12:20.343726
++import dopamine
+
+# 2018-08-29 01:14:44.490463
++import mock
+
+# 2018-08-29 01:32:00.616882
++import minisom
+
+# 2018-08-29 01:32:06.616437
++from minisom import MiniSom
+
+# 2018-08-29 01:32:08.711536
++som = MiniSom(6, 6, 4, sigma=0.5, learning_rate=0.5)
+
+# 2018-08-29 01:32:11.293597
++som.train_random(data, 100)
+
+# 2018-08-29 02:20:07.849260
++%matplotlib tk
+
+# 2018-08-30 12:54:40.551011
++import autokeras
+
+# 2018-09-03 13:25:09.445112
++%matplotlib tk
+
+# 2018-09-03 13:25:31.281981
++import dopamine
+
+# 2018-09-03 13:25:44.685184
++%matplotlib tk
+
+# 2018-09-07 19:01:05.027856
++import slugify
+
+# 2018-09-07 19:01:11.907480
++slugify.slugify("hi")
+
+# 2018-09-07 19:02:00.771690
++from slugify import slugify
+
+# 2018-09-07 23:04:29.127388
++%matplotlib tk
+
+# 2018-09-14 14:38:06.666545
++mnist = tf.keras.datasets.mnist
+
+# 2018-09-14 14:38:21.499333
++tf.keras.datasets.imdb
+
+# 2018-09-14 16:07:15.874015
++%matplotlib tk
+
+# 2018-09-14 18:06:27.755190
++import bowler
+
+# 2018-09-15 16:06:12.773134
++%matplotlib tk
+
+# 2018-09-16 14:12:32.371966
++numbers = [1, 2, 3, 4, 5]
++
++doubled_odds = []
++for n in numbers:
++    if n % 2 == 1:
++        doubled_odds.append(n * 2)
+
+# 2018-09-16 17:31:12.008745
++%matplotlib tk
+
+# 2018-09-21 22:21:35.268883
++from elasticsearch import Elasticsearch
+
+# 2018-09-22 21:08:02.034889
++%matplotlib tk
+
+# 2018-09-24 16:55:49.965131
++ki
+
+# 2018-09-27 09:13:10.720029
++%matplotlib tk
+
+# 2018-11-08 14:12:36.010139
++['lingo', 'tooling', 'query-from-offset', '--all-properties', '/home/shane/notes2018/ws/codelingo/issues/lightning-network-daemon/write-tenets/error-handled-in-test/gen-test.go', '0', '158']
+
+# 2018-11-08 14:13:43.506218
++" ".join(['lingo', 'tooling', 'query-from-offset', '--all-properties', '/home/shane/notes2018/ws/codelingo/issues/lightning-network-daemon/write-tenets/error-handled-in-test/gen-test.go', '0', '158'])
+
+# 2018-11-08 14:13:54.785275
++tv(" ".join(['lingo', 'tooling', 'query-from-offset', '--all-properties', '/home/shane/notes2018/ws/codelingo/issues/lightning-network-daemon/write-tenets/error-handled-in-test/gen-test.go', '0', '158']))
+
+# 2018-11-09 08:58:56.358173
++%matplotlib tk
+
+# 2018-11-16 10:28:08.454832
++import textwrap
+
+# 2018-11-16 21:16:18.178163
++textwrap.wrap("hidsfljksdjfl", 5)
+
+# 2018-11-16 21:16:23.337079
++textwrap.wrap("hidsfljksdjfl", width=5)
+
+# 2018-11-19 08:54:30.695788
++%matplotlib tk
+
+# 2018-12-10 09:17:40.895786
++import dataset
+
+# 2018-12-10 23:18:57.508233
++%matplotlib tk
+
+# 2018-12-27 14:32:27.403562
++%matplotlib tk\n
+
+# 2018-12-27 15:45:10.590226
++(5).conjugate()
+
+# 2018-12-27 15:45:16.444803
++(-1).conjugate
+
+# 2018-12-27 15:45:19.803142
++(-1).conjugate()
+
+# 2018-12-27 15:45:39.598557
++math.sqrt(-1)
+
+# 2018-12-27 15:46:09.028909
++(1j).conjugate
+
+# 2018-12-27 15:46:12.820992
++(1j).conjugate()
+
+# 2018-12-27 19:26:47.831951
++1j
+
+# 2018-12-27 19:26:51.954869
++type(1j)
+
+# 2018-12-28 11:29:44.471979
++%matplotlib tk\n
+
+# 2019-01-03 19:44:51.940726
++tf
+
+# 2019-01-03 19:45:02.628820
++import spacy as sy
+
+# 2019-01-04 00:56:13.509418
++%matplotlib tk\n
+
+# 2019-01-17 10:46:26.453267
++%matplotlib tk
+
+# 2019-01-17 10:47:45.943327
++%matplotlib tk\n
+
+# 2019-01-22 10:27:14.593706
++import fuzzyfinder
+
+# 2019-01-22 18:47:01.083543
++%matplotlib tk\n
+
+# 2019-02-02 00:17:10.035888
++import torch
+
+# 2019-02-02 00:17:11.093289
++pwd
+
+# 2019-02-02 00:17:11.521512
++ls
+
+# 2019-02-02 00:17:17.657546
++torch.abs(5)
+
+# 2019-02-02 00:17:41.556903
++import matplotlib.pyplot as pltl
+
+# 2019-02-02 00:20:18.746655
++from tqdm import tqdm
+
+# 2019-02-02 17:54:19.458716
++%matplotlib tk\n
+
+# 2019-02-02 17:57:42.977186
++%matplotlib tk
+
+# 2019-02-02 19:14:54.306497
++%matplotlib tk\n
+
+# 2019-02-10 19:32:27.789020
++%matplotlib tk
+
+# 2019-02-10 23:22:19.948439
++torch.adaptive_avg_pool1d
+
+# 2019-02-10 23:46:48.299521
++ls
+
+# 2019-02-10 23:46:50.094110
++ls()
+
+# 2019-02-10 23:47:00.344338
++ls()[:5]
+
+# 2019-02-10 23:47:15.241107
++tv(ls()[:5])
+
+# 2019-02-10 23:47:24.834508
++tv(str(ls()[:5]))
+
+# 2019-02-10 23:47:35.832077
++tv("\n".join(ls()[:5]))
+
+# 2019-02-11 00:35:23.376519
++p("hi")
+
+# 2019-02-11 00:41:05.614981
++%matplotlib tk
+
+# 2019-02-11 22:12:08.357743
++import torch as tc
+
+# 2019-02-12 09:07:00.937773
++%matplotlib tk
+
+# 2019-02-12 09:09:12.001970
++tc.adaptive_max_pool1d
+
+# 2019-02-12 22:28:28.302339
++%matplotlib tk
+
+# 2019-02-13 00:13:54.211384
++import problog as pl
+
+# 2019-02-13 01:05:14.247702
++%matplotlib tk
+
+# 2019-02-24 16:41:48.045580
++>>> from forex_python.converter import CurrencyRates
+
+# 2019-02-24 16:41:55.454572
++>>> from forex_python.converter import CurrencyRates
+
+# 2019-02-24 17:15:01.753609
++%matplotlib tk
+
+# 2019-02-25 09:54:07.960829
++import google
+
+# 2019-02-25 09:54:11.049685
++import search_google
+
+# 2019-02-25 09:56:36.039985
++%matplotlib tk
+
+# 2019-02-25 09:57:36.352103
++import google
+
+# 2019-02-25 10:09:22.328259
++import remarshall
+
+# 2019-02-25 10:09:26.967373
++import remarshal
+
+# 2019-02-25 10:35:33.347823
++%matplotlib tk
+
+# 2019-02-28 09:04:24.829204
++import tensorflow_datasets as tfds
+
+# 2019-02-28 09:30:13.705658
++%matplotlib tk
+
+# 2019-02-28 09:31:59.655231
++tfds.dataset_as_numpy
+
+# 2019-03-01 08:48:34.100837
++%matplotlib tk
+
+# 2019-03-01 14:10:24.135573
++pd.read_csv(dtype={'SysDefaultVal': np.float32}, encoding='latin1' '/tmp/query.csv')
+
+# 2019-03-01 14:11:10.915257
++pd.read_csv("/tmp/query.csv", dtype={'SysDefaultVal': np.float32}, encoding='latin1')
+
+# 2019-03-01 14:11:54.450520
++df = pd.read_csv("/tmp/query.csv", dtype={'SysDefaultVal': np.float32}, encoding='latin1')
+
+# 2019-03-01 14:12:03.713436
++df[500]
+
+# 2019-03-01 14:12:08.085732
++df[500,1]
+
+# 2019-03-01 14:12:12.859334
++type(df)
+
+# 2019-03-01 14:12:49.991511
++df.at[500,1]
+
+# 2019-03-01 14:13:06.668802
++df
+
+# 2019-03-01 14:13:43.464876
++df.loc[500,1]
+
+# 2019-03-01 14:14:14.637766
++df.iat[500,1]
+
+# 2019-03-01 14:14:21.466066
++df.iat[20,1]
+
+# 2019-03-01 14:15:33.326335
++df.info
+
+# 2019-03-01 14:28:48.230118
++df.iat[10,1]
+
+# 2019-03-01 14:38:55.690977
++df.iat[0,1]
+
+# 2019-03-01 14:39:01.180249
++df.iat[0,0]
+
+# 2019-03-01 14:39:57.049310
++df = pd.read_csv("/tmp/query.csv", dtype={'SysDefaultVal': np.float32}, encoding='latin1')
+
+# 2019-03-01 14:39:59.362307
++df.iat[0,0]
+
+# 2019-03-01 14:40:51.426900
++df = pd.read_csv("/home/shane/dump/tmp/scratchaEkgqC.txt", dtype={'SysDefaultVal': np.float32}, encoding='latin1')
+
+# 2019-03-01 14:40:53.450600
++df.iat[0,0]
+
+# 2019-03-01 14:41:01.792971
++df.iat[0,1]
+
+# 2019-03-01 16:01:06.964589
++%matplotlib tk
+
+# 2019-03-01 16:18:25.497515
++df = pd.read_csv("/home/shane/dump/tmp/scratchLDI3sR.txt", dtype={'SysDefaultVal': np.float32}, encoding='latin1')
+
+# 2019-03-01 16:18:32.755644
++df.iat[0,1]
+
+# 2019-03-01 16:18:35.866484
++df.iat[200,1]
+
+# 2019-03-02 08:02:08.674266
++%matplotlib tk
+
+# 2019-03-13 22:54:30.290597
++pd.set_option('display.max_columns', None)
+
+# 2019-03-13 22:54:48.491976
++pd.set_option('display.max_rows', None)
+
+# 2019-03-13 22:54:55.037306
++pd.set_option('display.max_colwidth', -1)
+
+# 2019-03-13 22:55:02.423827
++df = pd.read_csv("/tmp/file_stdin_PAOGB8_rand-32317_pid-513.txt", dtype=str)
+
+# 2019-03-13 22:55:09.375876
++df.fillna('', inplace=True)
+
+# 2019-03-13 22:55:16.131518
++print(df.iloc[:,1])
+
+# 2019-03-13 22:55:27.606755
++pd.describe_option('display')
+
+# 2019-03-13 22:56:53.037825
++df = pd.read_csv("/tmp/file_stdin_PAOGB8_rand-32317_pid-513.txt", dtype=str)
+
+# 2019-03-13 22:57:00.313583
++df.fillna('', inplace=True)
+
+# 2019-03-13 22:57:15.632518
++df.iloc[:,1]
+
+# 2019-03-13 22:57:22.596341
++type(df.iloc[:,1])
+
+# 2019-03-13 22:58:34.584438
++df.iloc[:,1].to_string(index=False)
+
+# 2019-03-13 22:59:09.013813
++sys.version_info
+
+# 2019-03-13 22:59:20.091841
++s=df.iloc[:,1]
+
+# 2019-03-13 22:59:23.657781
++type(s)
+
+# 2019-03-13 22:59:39.816758
++s.to_string(index=False)
+
+# 2019-03-13 23:00:15.242298
++s.to_string(index=True)
+
+# 2019-03-13 23:20:24.840423
++s
+
+# 2019-03-13 23:20:28.433272
++type(s)
+
+# 2019-03-13 23:20:53.156265
++if isinstance(s, pandas.core.series.Series):
++    print("hi")
+
+# 2019-03-13 23:22:17.304128
++type(df)
+
+# 2019-03-20 17:02:02.916888
++%matplotlib tk
+
+# 2019-03-27 00:52:42.275306
++"hii there"*5
+
+# 2019-03-29 09:16:39.712394
++%matplotlib tk
+
+# 2019-04-01 13:56:09.743359
++import google
+
+# 2019-04-01 13:56:24.419990
++from google import search
+
+# 2019-04-01 14:50:57.406068
++pwd()
+
+# 2019-04-01 14:51:13.112723
++pwd().split("/")
+
+# 2019-04-01 14:51:23.447498
++pwd().split("/")[2]
+
+# 2019-04-01 14:51:40.320205
++"/".join(pwd().split("/")[2])
+
+# 2019-04-01 14:52:32.176605
++"hello yo".split("/")
+
+# 2019-04-01 14:52:38.729169
++"hello yo".split("/")[0]
+
+# 2019-04-01 14:52:50.106422
++pwd().split("/")[2]
+
+# 2019-04-01 14:52:52.130730
++pwd().split("/")[2:]
+
+# 2019-04-01 14:52:55.740584
++array(pwd().split("/")[2:])
+
+# 2019-04-01 14:53:50.514352
++pwd().split("/")[2:]
+
+# 2019-04-01 14:53:53.748165
++type(pwd().split("/")[2:])
+
+# 2019-04-01 14:53:59.709704
++type(pwd().split("/")[2])
+
+# 2019-04-01 14:54:04.071368
++list(pwd().split("/")[2])
+
+# 2019-04-01 14:54:16.920285
++list()
+
+# 2019-04-01 14:54:19.944822
++list().append
+
+# 2019-04-01 14:54:28.498180
++list().append(pwd().split("/")[2])
+
+# 2019-04-01 14:54:35.087993
++l=list().append(pwd().split("/")[2])
+
+# 2019-04-01 14:54:35.807170
++l
+
+# 2019-04-01 14:54:44.493629
++l=list()
+
+# 2019-04-01 14:54:45.791855
++l
+
+# 2019-04-01 14:54:53.982145
++l.append(pwd().split("/")[2])
+
+# 2019-04-01 14:54:54.860985
++l
+
+# 2019-04-01 14:55:17.198434
++l.append(["yo","sup"])
+
+# 2019-04-01 14:55:18.462004
++l
+
+# 2019-04-01 14:55:43.458781
++l.extend(["yo","sup"])
+
+# 2019-04-01 14:55:45.343402
++l
+
+# 2019-04-01 14:55:50.981726
++l.extend("hi")
+
+# 2019-04-01 14:55:51.892211
++l
+
+# 2019-04-01 14:58:43.030841
++
++def list_add(mylist, x):
++    """Extend list if list, append to list if element"""
++    
++    mylist.extend( x if type(x) == list else [x] )
+
+# 2019-04-01 14:59:08.863494
++list_add([],["hi","yo"])
+
+# 2019-04-01 14:59:13.040218
++l=[]
+
+# 2019-04-01 14:59:17.364599
++list_add(l,["hi","yo"])
+
+# 2019-04-01 14:59:18.301015
++l
+
+# 2019-04-01 14:59:26.548764
++list_add(l,"hi")
+
+# 2019-04-01 14:59:27.485835
++l
+
+# 2019-04-01 16:42:17.938990
++wd="/home/shane/notes/"
+
+# 2019-04-01 16:42:21.402273
++sub=wd.rstrip().split("/")[1:]
+
+# 2019-04-01 16:42:23.859542
++sub = sub if type(sub) == list else [sub]
+
+# 2019-04-01 16:42:26.565310
++sys.stdout.write("/".join(sub) + "\n")
+
+# 2019-04-01 16:42:37.562096
++sub=wd.rstrip().split("/")[1]
+
+# 2019-04-01 16:42:39.247521
++sub = sub if type(sub) == list else [sub]
+
+# 2019-04-01 16:42:41.414792
++sys.stdout.write("/".join(sub) + "\n")
+
+# 2019-04-01 17:48:28.624897
++from googlesearch import search
+
+# 2019-04-02 14:46:03.774272
++%matplotlib tk
+
+# 2019-04-08 01:17:49.134409
++True
+
+# 2019-04-09 17:39:31.573946
++from github import Github
+
+# 2019-04-09 17:40:35.692497
++g = Github("295405c5706773fb53cfb87136c55b0eba4fbe27")
+
+# 2019-04-09 17:40:56.882085
++g.get_user().get_repos()
+
+# 2019-04-09 17:41:25.355214
++for  repo in g.get_user().get_repos():
++    print(repo)
+
+# 2019-04-09 17:41:39.115381
++for  repo in g.get_user().get_repos():
++    print(repo.name)
+
+# 2019-04-09 17:42:14.778055
++g = Github("feac85bba303356cb057c22ff7900604a743a41f")
+
+# 2019-04-09 17:42:19.779235
++for  repo in g.get_user().get_repos():
++    print(repo.name)
+
+# 2019-04-09 17:53:18.277016
++g.get_repo("grafana/metrictank")
+
+# 2019-04-09 17:53:30.759273
++repo = g.get_repo("grafana/metrictank")
+
+# 2019-04-09 17:54:22.192042
++repo.get_issue(1243)
+
+# 2019-04-09 17:54:57.537709
++issue = repo.get_issue(1243)
+
+# 2019-04-09 22:03:02.546451
++g.get_repo("grafana/metrictank")
+
+# 2019-04-12 09:11:15.101749
++%matplotlib tk
+
+# 2019-04-14 11:25:33.034623
++('eggs', 'bacon', 'soup')
+
+# 2019-04-14 11:25:36.431021
++type(('eggs', 'bacon', 'soup'))
+
+# 2019-04-14 11:25:41.813662
++length(('eggs', 'bacon', 'soup'))
+
+# 2019-04-14 11:25:44.252556
++len(('eggs', 'bacon', 'soup'))
+
+# 2019-04-14 11:26:11.064121
++"eggs bacon soup".split(" ")
+
+# 2019-04-14 11:26:19.092520
++tuple("eggs bacon soup".split(" "))
+
+# 2019-04-14 14:38:39.656724
++version
+
+# 2019-04-14 14:38:41.981323
++version()
+
+# 2019-04-14 14:38:54.377075
++sys.version_info[0]
+
+# 2019-04-14 14:38:59.988023
++sys.version_info
+
+# 2019-04-14 14:39:40.112460
++%matplotlib tk
+
+# 2019-04-14 14:39:48.578221
++version()
+
+# 2019-04-14 14:40:24.500156
++%matplotlib tk
+
+# 2019-04-14 14:40:28.208791
++version()
+
+# 2019-04-14 14:40:36.921920
++%matplotlib tk
+
+# 2019-04-14 14:40:39.200607
++version()
+
+# 2019-04-14 14:46:51.030688
++%matplotlib tk
+
+# 2019-04-14 15:11:53.251506
++tf
+
+# 2019-04-14 15:11:55.294519
++tc
+
+# 2019-04-14 15:17:37.547765
++version()
+
+# 2019-04-14 15:22:10.454816
++import slugify
+
+# 2019-04-14 15:22:13.389640
++version()
+
+# 2019-04-14 15:22:17.358148
++import shanepy
+
+# 2019-04-14 15:22:23.645410
++from shanepy import *
+
+# 2019-04-14 15:22:25.027334
++version()
+
+# 2019-04-14 15:22:35.921665
++import slugify
+
+# 2019-04-14 15:23:52.327020
++import torch
+
+# 2019-04-14 15:24:50.780910
++import slugify
+
+# 2019-04-14 15:28:08.603879
++%matplotlib tk
+
+# 2019-04-19 21:23:38.995885
++import bashlex
+
+# 2019-04-19 21:23:58.613288
++version
+
+# 2019-04-19 21:24:02.647370
++version()
+
+# 2019-04-19 21:24:46.696998
++import bashlex
+
+# 2019-04-19 21:26:28.416430
++cat("/home/shane/scripts/3llo")
+
+# 2019-04-19 21:28:29.085222
++parts = bashlex.parse('true && cat <(echo $(echo foo))')
+
+# 2019-04-19 21:28:43.659213
++for asst in parts:
++    print(asst)
+
+# 2019-04-19 21:28:50.778366
++for asst in parts:
++    print(asst.dump())
+
+# 2019-04-20 11:17:01.945135
++%matplotlib tk
+
+# 2019-05-10 19:45:20.605791
++from bs4 import BeautifulSoup,SoupStrainer
+
+# 2019-05-11 09:32:27.477613
++%matplotlib tk
+
+# 2019-05-11 18:08:51.448242
++o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text77556.npy")
+
+# 2019-05-11 18:09:09.351695
++o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text77556.npy").shape
+
+# 2019-05-11 18:14:02.725861
++o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text77551.npy").shape
+
+# 2019-05-11 18:14:17.622813
++o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text896.npy").shape
+
+# 2019-05-11 18:29:25.935352
++o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text0.npy")
+
+# 2019-05-11 18:29:30.618101
++tv(o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text0.npy"))
+
+# 2019-05-11 18:32:49.486860
++tv(o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text589.npy"))
+
+# 2019-05-11 19:32:56.610141
++%matplotlib tk
+
+# 2019-05-11 19:34:59.502209
++data=b("cd $DUMP$HOME/notes2018/ws/nlp-natural-language-processing/datasets/; cat1 *.sgm")[0]
+
+# 2019-05-11 19:35:02.991505
++data
+
+# 2019-05-11 20:25:59.479431
++%matplotlib tk
+
+# 2019-05-11 20:26:22.893813
++tv(o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text19087.npy"))
+
+# 2019-05-11 20:26:55.612086
++tv(o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text19053.npy"))
+
+# 2019-05-11 20:27:22.511411
++tv(o("/home/shane/dump/home/shane/notes2018/ws/deep-learning/chen/traindata/text51.npy"))
+
+# 2019-05-13 13:26:05.940914
++%matplotlib tk
+
+# 2019-05-16 16:53:10.175528
++%matplotlib tk\
+
+# 2019-05-20 13:26:50.358502
++tc
+
+# 2019-05-20 13:59:19.723486
++nlp = sc.load('en_core_web_md')
+
+# 2019-05-20 13:59:33.438173
++nlp = sy.load('en_core_web_md')
+
+# 2019-05-20 19:19:14.162710
++%matplotlib tk\
+
+# 2019-05-24 00:00:59.012880
++from sklearn.cross_validation import train_test_split
+
+# 2019-05-24 00:01:08.944658
++import sklearn
+
+# 2019-05-24 00:01:18.284654
++from sklearn import *
+
+# 2019-05-26 10:49:18.775568
++%matplotlib tk\
+
+# 2019-06-02 01:03:22.739129
++import shanepy
+
+# 2019-06-02 01:03:25.874840
++from shanepy import *
+
+# 2019-06-02 01:03:29.348480
++cat("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:03:35.609941
++cat
+
+# 2019-06-02 01:06:04.080312
++%matplotlib tk\
+
+# 2019-06-02 01:06:10.443236
++cat("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:06:25.355576
++q("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:06:42.169718
++%matplotlib tk\
+
+# 2019-06-02 01:06:45.618587
++cat("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:07:53.783440
++%matplotlib tk\
+
+# 2019-06-02 01:07:57.131001
++cat("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:08:09.898941
++umn("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:08:23.603248
++print(umn("$DUMP/tmp/scratchcdFbGL.txt"))
+
+# 2019-06-02 01:09:33.740745
++print(umn("$DUMP/tmp/scratchcdFbGL.txt").decode("utf8"))
+
+# 2019-06-02 01:09:39.861594
++type(umn("$DUMP/tmp/scratchcdFbGL.txt"))
+
+# 2019-06-02 01:09:43.505220
++type("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:09:46.142512
++print(umn("$DUMP/tmp/scratchcdFbGL.txt").decode("utf8"))
+
+# 2019-06-02 01:09:52.272138
++print(umn("$DUMP/tmp/scratchcdFbGL.txt"))
+
+# 2019-06-02 01:09:58.854019
++printumn("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:10:01.343906
++type("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:10:09.728160
++type(umn("$DUMP/tmp/scratchcdFbGL.txt"))
+
+# 2019-06-02 01:11:12.283285
++%matplotlib tk\
+
+# 2019-06-02 01:11:16.046608
++type(umn("$DUMP/tmp/scratchcdFbGL.txt"))
+
+# 2019-06-02 01:11:18.613852
++umn("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:11:21.786348
++print(umn("$DUMP/tmp/scratchcdFbGL.txt"))
+
+# 2019-06-02 01:11:24.520261
++cat("$DUMP/tmp/scratchcdFbGL.txt")
+
+# 2019-06-02 01:19:28.863322
++%matplotlib tk\
+
+# 2019-06-04 17:56:20.674814
++import selenium
+
+# 2019-06-04 17:56:39.067719
++from selenium.webdriver import Firefox
+
+# 2019-06-04 17:56:41.996610
++from selenium.webdriver.firefox.options import Options
+
+# 2019-06-04 17:56:51.007039
++opts = Options()
+
+# 2019-06-04 17:56:54.733986
++opts.set_headless()
+
+# 2019-06-04 17:57:04.180487
++assert opts.headless
+
+# 2019-06-04 17:57:07.988887
++browser = Firefox(options=opts)
+
+# 2019-06-04 18:00:07.722624
++assert opts.headless
+
+# 2019-06-04 18:00:10.316900
++browser = Firefox(options=opts)
+
+# 2019-06-05 14:14:18.358758
++%matplotlib tk\
+
+# 2019-06-05 15:01:17.441113
++"ldkasjflksajflkdsf Z"[:5]
+
+# 2019-06-05 15:01:26.354309
++"ldkasjflksajflkdsf Z"[5]
+
+# 2019-06-05 15:21:55.124486
++import tensorflow_datasets as tfds
+
+# 2019-06-05 16:57:31.866435
++examples, metadata = tfds.load('ted_hrlr_translate/pt_to_en', with_info=True, as_supervised=True)
+
+# 2019-06-06 15:43:40.529492
++import tensorflow_datasets as tfds
+
+# 2019-06-06 15:45:07.829347
++%matplotlib tk\
+
+# 2019-06-07 18:13:20.495772
++import tensorflow_probability as tfp
+
+# 2019-06-10 22:30:54.162856
++%matplotlib tk\
+
+# 2019-06-17 10:45:12.639254
++counterr = tf.constant(0)
+
+# 2019-06-17 10:45:23.894059
++counter = tf.constant(0)
+
+# 2019-06-17 10:58:31.710038
++tf.version
+
+# 2019-06-17 10:58:34.605195
++tf.version()
+
+# 2019-06-17 10:58:45.705903
++tf.version
+
+# 2019-06-17 11:00:33.274568
++print(tf.version)
+
+# 2019-06-17 11:01:18.694877
++tv(str(tf.version))
+
+# 2019-06-18 18:30:34.097869
++sy.about
+
+# 2019-06-18 18:30:38.916229
++sy.about()
+
+# 2019-06-19 17:55:38.955839
++%matplotlib tk\
+
+# 2019-06-20 15:08:44.292930
++tf.version
+
+# 2019-06-20 18:12:43.778928
++sy.about()
+
+# 2019-06-20 18:12:47.165281
++sy.about
+
+# 2019-06-20 18:12:56.527702
++sy.glossary
+
+# 2019-06-20 18:13:04.093323
++sy.glossary.GLOSSARY
+
+# 2019-06-20 18:13:14.724728
++sy.glossary.__builtins__
+
+# 2019-06-20 18:13:20.958547
++type(sy.glossary)
+
+# 2019-06-21 03:11:02.884213
++%matplotlib tk\
+
+# 2019-07-01 14:42:50.625900
++mnist = tf.keras.datasets.__builtins__
+
+# 2019-07-01 14:44:19.112315
++mnist = tf.keras.datasets.mnist
+
+# 2019-07-01 15:19:12.764152
++ep(tf.keras.datasets.mnist)
+
+# 2019-07-01 15:19:24.667714
++ep(tf.keras.datasets)
+
+# 2019-07-01 15:43:05.091187
++dir(tf.keras.datasets.mnist)
+
+# 2019-07-01 15:43:15.956563
++dir(tf.keras.datasets)
+
+# 2019-07-01 15:43:43.249022
++dir(tf.keras.datasets)['cifar10']
+
+# 2019-07-01 15:45:05.325962
++dir(tf.keras.datasets)
+
+# 2019-07-01 15:45:10.966236
++dir(tf.keras.datasets)[0]
+
+# 2019-07-01 15:45:18.575343
++type(dir(tf.keras.datasets)[0])
+
+# 2019-07-01 15:45:22.359040
++type(dir(tf.keras.datasets)[5])
+
+# 2019-07-01 15:45:25.368535
++type(dir(tf.keras.datasets)[10])
+
+# 2019-07-01 15:45:29.199241
++dir(tf.keras.datasets)[10]
+
+# 2019-07-01 15:47:35.239274
++%matplotlib tk\
+
+# 2019-07-01 15:52:17.425724
++describe(tf.keras.datasets)
+
+# 2019-07-01 15:52:33.181170
++mnist = tf.keras.datasets.mnist
+
+# 2019-07-01 15:52:37.013912
++describe(mnist)
+
+# 2019-07-01 15:52:40.365518
++ep(mnist)
+
+# 2019-07-01 15:52:52.525399
++tf.keras.datasets
+
+# 2019-07-01 15:53:02.358326
++describe(tf.keras.datasets)
+
+# 2019-07-01 15:53:04.781016
++dir(tf.keras.datasets)
+
+# 2019-07-01 15:57:35.488494
++%matplotlib tk\
+
+# 2019-07-01 15:58:26.550315
++mnist = tf.keras.datasets.mnist
+
+# 2019-07-01 15:58:37.014874
++dir(keras.datasets)
+
+# 2019-07-01 15:58:41.975437
++describe(keras.datasets)
+
+# 2019-07-01 16:13:28.150648
++dir(keras.datasets)
+
+# 2019-07-01 16:16:19.075733
++type(keras.datasets.mnist)
+
+# 2019-07-01 16:17:38.118273
++%matplotlib tk\
+
+# 2019-07-01 16:17:43.377450
++em(tf.keras.datasets)
+
+# 2019-07-01 16:23:51.361618
++%matplotlib tk\
+
+# 2019-07-01 16:23:58.806389
++em(tf.keras.datasets)
+
+# 2019-07-01 16:24:10.824916
++import inspect
+
+# 2019-07-01 16:27:38.574928
++from inspect import ismodule
+
+# 2019-07-01 16:27:51.996777
++%matplotlib tk\
+
+# 2019-07-01 16:28:04.014698
++em(tf.keras.datasets)
+
+# 2019-07-01 16:28:14.177266
++ep(tf.keras.datasets)
+
+# 2019-07-01 16:28:21.350619
++tv(em(tf.keras.datasets))
+
+# 2019-07-01 16:28:38.875711
++em(tf.keras.datasets)
+
+# 2019-07-01 16:28:51.191182
++ismodule(tf.keras.datasets.__cached__)
+
+# 2019-07-01 16:29:18.783548
++%matplotlib tk\
+
+# 2019-07-01 16:29:37.382242
++em(tf.keras.datasets)
+
+# 2019-07-01 16:29:44.640903
++ismodule(tf.keras.datasets.__cached__)
+
+# 2019-07-01 16:29:50.903757
++ismodule(tf.keras.datasets.cifar10)
+
+# 2019-07-01 16:31:15.246422
++%matplotlib tk\
+
+# 2019-07-01 16:31:19.588222
++em(tf.keras.datasets)
+
+# 2019-07-01 16:44:25.881312
++%matplotlib tk\
+
+# 2019-07-01 16:44:44.705920
++em(tf.keras.datasets)
+
+# 2019-07-01 20:30:21.103621
++tv(em(tf.keras.datasets))
+
+# 2019-07-01 20:30:25.841882
++xc(em(tf.keras.datasets))
+
+# 2019-07-01 21:52:09.029952
++em(tf.keras.datasets)
+
+# 2019-07-01 21:53:09.358920
++b("tf txt | xa v", tf.keras.datasets)
+
+# 2019-07-01 22:47:30.420113
++%matplotlib tk\
+
+# 2019-07-04 09:48:00.372614
++tf.keras.datasets.imdb
+
+# 2019-07-06 09:45:58.931387
++%matplotlib tk\
+
+# 2019-07-12 12:03:55.729917
++import snipsnlu
+
+# 2019-07-12 12:04:19.148562
++import snips_nlu
+
+# 2019-07-12 12:07:23.414804
++import pytrends
+
+# 2019-07-12 12:08:05.757497
++from pytrends.request import TrendReq
+
+# 2019-07-12 12:21:10.820618
++import Django
+
+# 2019-07-12 12:21:15.076083
++import django
+
+# 2019-07-12 12:37:51.949836
++%matplotlib tk\
+
+# 2019-07-12 17:01:58.937460
++sy.about
+
+# 2019-07-12 17:02:14.838937
++import sy.display
+
+# 2019-07-12 17:02:21.450083
++type(sy.displacy)
+
+# 2019-07-13 11:49:58.460771
++import random
+
+# 2019-07-13 11:50:43.921231
++random.randrange(0,100)
+
+# 2019-07-13 11:50:49.189848
++random.randint(0,100)
+
+# 2019-07-13 11:50:56.488679
++random.randint(0,1)
+
+# 2019-07-13 11:50:58.793879
++random.randint(0,100)
+
+# 2019-07-13 11:51:01.575091
++random.randint(0,1)
+
+# 2019-07-13 11:51:06.744076
++random.randrange(0,1)
+
+# 2019-07-13 16:40:45.980101
++import fusepy
+
+# 2019-07-13 16:41:04.960952
++from fuse import FUSE, FuseOSError, Operations
+
+# 2019-07-13 16:46:04.973303
++from fuse import FUSE
+
+# 2019-07-13 16:54:08.515923
++from fusepy import FUSE
+
+# 2019-07-13 16:54:13.683691
++from fuse.py import FUSE
+
+# 2019-07-13 16:56:31.459429
++import importlib.util
+
+# 2019-07-13 17:09:52.633900
++import requests
+
+# 2019-07-13 17:09:58.292764
++response = requests.get('https://httpbin.org/ip')
+
+# 2019-07-13 17:10:06.296738
++response.cookies
+
+# 2019-07-13 17:10:11.240418
++response.cookies()
+
+# 2019-07-13 17:10:19.919709
++response.cookies
+
+# 2019-07-13 17:10:43.891114
++for i in response.cookies : print(i)
+
+# 2019-07-13 17:11:59.477008
++response.json()
+
+# 2019-07-13 17:12:05.384697
++tv(response.json())
+
+# 2019-07-13 17:13:34.987810
++response.json()
+
+# 2019-07-13 17:13:39.772021
++type(response.json())
+
+# 2019-07-13 17:13:56.555981
++type(response.json().dumps())
+
+# 2019-07-13 17:14:18.063104
++json.dumps(response.json())
+
+# 2019-07-13 17:15:39.074106
++response.json()
+
+# 2019-07-13 17:15:47.268842
++tv(json.dumps(response.json()))
+
+# 2019-07-13 18:28:24.542409
++%matplotlib tk\
+
+# 2019-07-13 19:36:22.444127
++import psychopy
+
+# 2019-07-14 01:52:20.591508
++import jedi
+
+# 2019-07-14 01:52:50.131951
++jedi.__version__
+
+# 2019-07-14 01:57:13.603832
++import jedi
+
+# 2019-07-14 01:57:14.358251
++jedi.__version__
+
+# 2019-07-14 01:57:26.667466
++%matplotlib tk\
+
+# 2019-07-14 02:03:36.574580
++tf.__version__
+
+# 2019-07-14 02:03:53.772059
++tv(tf.__version__)
+
+# 2019-07-14 16:51:30.641303
++%matplotlib tk\
+
+# 2019-07-14 17:13:56.260240
++from elasticsearch import query_instrument_fields, query_case_fields, query_all
+
+# 2019-07-14 17:17:59.580620
++import psychopy
+
+# 2019-07-14 17:24:53.246453
++%matplotlib tk\
+
+# 2019-07-14 17:25:16.859139
++type(psychopy.clock)
+
+# 2019-07-14 17:25:31.234552
++type(psychopy.clock.division)
+
+# 2019-07-15 01:11:06.817572
++import nltk
+
+# 2019-07-15 01:11:43.748467
++from nltk.stem.wordnet import WordNetLemmatizer
+
+# 2019-07-15 14:06:18.644452
++from spacy.lang.en import English
+
+# 2019-07-15 14:16:51.268585
++describe(spacy.lang.de)
+
+# 2019-07-15 14:17:03.719253
++describe(spacy.lang)
+
+# 2019-07-15 14:17:13.363180
++describe(spacy.lang.en)
+
+# 2019-07-15 14:17:27.943767
++describe(spacy.lang.de)
+
+# 2019-07-16 11:36:20.728207
++from spacy.lang.es import Spanish
+
+# 2019-07-16 11:36:55.476840
++describe(spacy.lang.es)
+
+# 2019-07-16 12:05:28.813666
++import spacy
++# Import the English language class
++from spacy.lang.en import English
++
++# Create the nlp object
++# nlp = spacy.load("en_core_web_sm")
++# nlp = spacy.load("en_core_web_md")
++nlp = spacy.load("en")
++
++# Process the text
++doc = nlp("I like tree kangaroos and narwhals.")
++
++# Select the first token
++first_token = doc[0]
+
+# 2019-07-16 12:10:41.894749
++from spacy.lang.en import English
++
++nlp = English()
++
++# Process the text
++doc = nlp(
++    "In 1990, more than 60% of people in East Asia were in extreme poverty. "
++    "Now less than 4% are."
++)
+
+# 2019-07-16 12:11:12.262840
++token = doc[0]
+
+# 2019-07-16 12:11:57.154247
++type(token)
+
+# 2019-07-16 12:12:40.388934
++members(token)
+
+# 2019-07-16 12:41:00.243536
++type(token.like_num)
+
+# 2019-07-16 13:16:11.250744
++dm
+
+# 2019-07-16 13:57:14.274657
++def boolean():
++    print("You have a boolean" )
++
++def integer():
++    print("You have an integer")
++
++def floatType():
++    print("You have a float")
++
++def string():
++    print("You have a string")
++
++switchDict = {bool: boolean, int: integer, float: floatType, str: string}
++switchDict[type(varX)]()
+
+# 2019-07-16 13:57:28.828428
++varX = "ldksjfd"
++
++def boolean():
++    print("You have a boolean" )
++
++def integer():
++    print("You have an integer")
++
++def floatType():
++    print("You have a float")
++
++def string():
++    print("You have a string")
++
++switchDict = {bool: boolean, int: integer, float: floatType, str: string}
++switchDict[type(varX)]()
+
+# 2019-07-16 13:58:37.659931
++type(spacy)
+
+# 2019-07-16 13:59:28.276598
++describe(spacy.lang.es)
+
+# 2019-07-16 13:59:39.779743
++spacy.lang.es.Language
+
+# 2019-07-16 13:59:42.831728
++type(spacy.lang.es.Language)
+
+# 2019-07-16 14:00:38.667974
++lang = spacy.lang.es.Language
+
+# 2019-07-16 14:00:46.943283
++type(lang.add_pipe)
+
+# 2019-07-16 14:01:02.372035
++type(int)
+
+# 2019-07-16 14:01:09.047414
++type(map)
+
+# 2019-07-16 14:01:22.388528
++type(abs)
+
+# 2019-07-16 14:02:02.648954
++%matplotlib tk\
+
+# 2019-07-16 14:02:07.907873
++describe(tf)
+
+# 2019-07-16 14:02:47.715687
++%matplotlib tk\
+
+# 2019-07-16 14:02:53.058681
++describe(tf)
+
+# 2019-07-16 14:02:59.804258
++type(tf)
+
+# 2019-07-16 14:03:04.287715
++type(type(tf))
+
+# 2019-07-16 14:04:01.588024
++type(5)
+
+# 2019-07-16 14:04:11.914512
++describe(tf.keras.datasets)
+
+# 2019-07-16 14:04:34.003941
++type(tf.keras.datasets)
+
+# 2019-07-16 14:05:09.031798
++str(describe(tf.keras.datasets))
+
+# 2019-07-16 14:05:15.019251
++str(type(tf.keras.datasets))
+
+# 2019-07-16 14:05:43.892382
++type(tf.keras.datasets).__name__
+
+# 2019-07-16 14:06:07.430607
++%matplotlib tk\
+
+# 2019-07-16 14:06:22.143471
++describe(tf)
+
+# 2019-07-16 14:08:54.946029
++type(abs)
+
+# 2019-07-16 14:08:59.839393
++type(abs).__name__
+
+# 2019-07-16 14:09:40.159897
++%matplotlib tk\
+
+# 2019-07-16 14:09:45.141888
++describe(tf)
+
+# 2019-07-16 14:13:13.377535
++%matplotlib tk\
+
+# 2019-07-16 14:13:25.027997
++describe(tf)
+
+# 2019-07-16 14:13:30.388433
++describe(5)
+
+# 2019-07-16 14:14:44.791694
++de
+
+# 2019-07-16 14:14:47.827641
++ds
+
+# 2019-07-16 14:14:51.511461
++dc
+
+# 2019-07-16 14:14:59.514051
++d
+
+# 2019-07-16 14:18:39.559408
++%matplotlib tk\
+
+# 2019-07-16 14:18:45.405972
++d(tf)
+
+# 2019-07-16 14:18:48.579112
++d(5)
+
+# 2019-07-16 14:19:17.929530
++%matplotlib tk\
+
+# 2019-07-16 14:19:20.606450
++d(5)
+
+# 2019-07-16 14:19:48.723976
++%matplotlib tk\
+
+# 2019-07-16 14:19:55.830094
++d(spacy.about)
+
+# 2019-07-16 14:20:08.985838
++d(spacy.lang)
+
+# 2019-07-16 14:20:33.441104
++d(spacy.lang.es)
+
+# 2019-07-16 14:20:40.966714
++import spacy
+
+# 2019-07-16 14:20:42.998100
++d(spacy.lang.es)
+
+# 2019-07-16 14:20:54.778311
++d(spacy.lang.en)
+
+# 2019-07-16 14:21:14.931433
++d(spacy.load)
+
+# 2019-07-16 14:21:21.635191
++d(5)
+
+# 2019-07-16 14:25:22.380287
++from spacy.lang.en import English
++
++nlp = English()
++
++# Process the text
++doc = nlp(
++    "In 1990, more than 60% of people in East Asia were in extreme poverty. "
++    "Now less than 4% are."
++)
+
+# 2019-07-16 14:25:30.498275
++d(token)
+
+# 2019-07-16 14:25:39.466507
++d(doc[0])
+
+# 2019-07-16 14:38:35.357104
++describe_klass(doc[0])
+
+# 2019-07-16 14:38:44.514272
++describe_klass(type(doc[0]))
+
+# 2019-07-16 14:38:55.989816
++d(type(doc[0]))
+
+# 2019-07-16 15:53:37.536736
++d(5)
+
+# 2019-07-16 18:04:39.381423
++d(d)
+
+# 2019-07-16 21:37:36.070842
++dirents = ['.', '..']
+
+# 2019-07-17 16:11:51.830257
++from pytorch_transformers import *
+
+# 2019-07-17 17:47:49.592903
++import spacy
+
+# 2019-07-17 17:47:54.331531
++nlp = spacy.load("en_core_web_sm")
+
+# 2019-07-17 18:07:34.955644
++%matplotlib tk\
+
+# 2019-07-18 00:22:04.470798
++import tensorflow as tf
+
+# 2019-07-18 13:57:16.602481
++i
+
+# 2019-07-18 13:57:30.381404
++import django
+
+# 2019-07-18 15:41:41.717376
++ss
+
+# 2019-07-18 16:09:57.517494
++shlex.quote("hello")
+
+# 2019-07-18 16:14:49.515984
++import shlex
++def py_q(s):
++    shlex.quote(s)
+
+# 2019-07-18 16:14:53.475906
++py_q("dskjfld")
+
+# 2019-07-18 16:15:17.825758
++source_file("/home/shane/var/smulliga/source/git/mullikine/shanepy/shanepy.py")
+
+# 2019-07-18 16:15:21.842542
++py_q("dskjfld")
+
+# 2019-07-18 16:15:26.405528
++print(py_q("dskjfld"))
+
+# 2019-07-18 16:15:41.729042
++shlex.quote("hello")
+
+# 2019-07-18 16:15:49.298128
++def py_q(s):
++    return shlex.quote(s)
+
+# 2019-07-18 16:15:51.247716
++shlex.quote("hello")
+
+# 2019-07-18 16:15:56.456356
++py_q("dskjfld")
+
+# 2019-07-18 16:17:05.892533
++spy
+
+# 2019-07-18 16:17:31.719190
++%matplotlib tk\
+
+# 2019-07-18 16:55:34.448102
++py_q("dskjfld")
+
+# 2019-07-18 16:55:49.670881
++%matplotlib tk\
+
+# 2019-07-18 16:57:49.340299
++os.environ.get('SECRET_KEY')
+
+# 2019-07-18 16:57:58.634832
++getenv
+
+# 2019-07-18 17:13:44.880257
++import secretes
+
+# 2019-07-18 23:53:47.968712
++%matplotlib tk\
+
+# 2019-07-20 13:55:01.849511
++id(5)
+
+# 2019-07-20 14:44:28.592883
++%matplotlib tk\
+
+# 2019-07-20 21:34:53.236395
++from tabulate import tabulate
+
+# 2019-07-20 23:33:18.103220
++tabulate([["Sun",696000,1989100000],["Earth",6371,5973.6], ["Moon",1737,73.5],["Mars",3390,641.85]])
+
+# 2019-07-20 23:33:21.452387
++tv(tabulate([["Sun",696000,1989100000],["Earth",6371,5973.6], ["Moon",1737,73.5],["Mars",3390,641.85]]))
+
+# 2019-07-22 00:07:32.743200
++5
+
+# 2019-07-22 15:13:11.291398
++%matplotlib tk\
+
+# 2019-07-23 00:23:14.080802
++import tensorflow_ranking
+
+# 2019-07-23 00:23:36.273226
++import tensorflow_ranking as tfr
+
+# 2019-07-23 00:38:56.632990
++{k: [] for k in [1,2,3,4,5]}
+
+# 2019-07-23 00:40:31.660869
++dict1 = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+# 2019-07-23 00:40:50.227713
++{k:v*2 for (k,v) in {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}.items()}
+
+# 2019-07-23 00:41:02.450695
++{'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}.items()
+
+# 2019-07-23 21:16:04.956522
++import doepy
+
+# 2019-07-23 22:03:09.190419
++from keras import backend as K
+
+# 2019-07-23 22:03:12.526031
++K.mean.mro()
+
+# 2019-07-23 22:03:18.806953
++K.mean
+
+# 2019-07-23 22:03:21.662026
++type(K.mean)
+
+# 2019-07-23 22:03:23.117247
++d(K.mean)
+
+# 2019-07-23 22:51:29.659669
++version()
+
+# 2019-07-23 23:02:41.409028
++from keras import Input
+
+# 2019-07-23 23:02:43.816905
++inputs = Input((13,))
+
+# 2019-07-23 23:04:05.389154
++from keras import Input
+
+# 2019-07-23 23:04:08.489828
++inputs = Input((13,))
+
+# 2019-07-24 00:42:42.890438
++from keras import Input, Model
+
+# 2019-07-24 00:42:49.264616
++model = Model(inputs, output)
+
+# 2019-07-24 00:42:57.754868
++inputs = Input((13,))
+
+# 2019-07-24 00:43:30.831775
++from keras import Input, Model
+
+# 2019-07-24 00:43:33.991790
++inputs = Input((13,))
+
+# 2019-07-24 00:45:22.654915
++from tensorflow.keras import Input, Model
+
+# 2019-07-24 00:45:26.422172
++inputs = Input((13,))
+
+# 2019-07-25 12:30:08.591540
++%matplotlib tk\
+
+# 2019-07-30 19:53:46.769505
++sy.about
+
+# 2019-07-31 02:53:01.067040
++%matplotlib tk\
+
+# 2019-07-31 17:02:00.567850
++from IPython import embed; embed(globals(), locals())
+
+# 2019-07-31 19:15:08.854125
++b("ns 'yo'")
+
+# 2019-08-01 14:56:10.369030
++ls()[:5]
+
+# 2019-08-01 14:56:13.472064
++ls()[:5]
++import pdb; pdb.set_trace()
+
+# 2019-08-01 14:58:23.106726
++ls()[:5]
+
+# 2019-08-01 14:58:56.176064
++%matplotlib tk\
+
+# 2019-08-01 15:01:51.718144
++ls()[:5]
+
+# 2019-08-01 15:02:15.447153
++%matplotlib tk\
+
+# 2019-08-01 15:02:59.912855
++ls()[:5]
+
+# 2019-08-01 15:03:41.514865
++%matplotlib tk\
+
+# 2019-08-01 15:05:50.565225
++ls()[:5]
+
+# 2019-08-01 15:13:40.420952
++%matplotlib tk\
+
+# 2019-08-01 15:14:03.542033
++ls()[:5]
+
+# 2019-08-01 15:22:09.496598
++lambda x, y: (x+y, x-y) (5, 2)
+
+# 2019-08-01 15:22:14.744672
++(lambda x, y: (x+y, x-y))(5, 2)
+
+# 2019-08-01 15:35:10.821636
++(lambda x: x[-5:])((lambda x: [s for s in x])(nlp.vocab.morphology.strings))
+
+# 2019-08-03 02:14:55.971138
++%matplotlib tk\
+
+# 2019-08-06 00:02:14.193680
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-06 01:25:36.489275
++from googlesearch import search
+
+# 2019-08-06 01:25:40.197977
++search.__code__
+
+# 2019-08-06 01:26:27.274521
++search("spacy transformer")
+
+# 2019-08-06 01:26:36.882755
++[i for i in search("spacy transformer")]
+
+# 2019-08-06 01:28:49.484241
++from google.cloud import pubsub
+
+# 2019-08-06 01:34:17.574740
++import tensorflow as tf
+
+# 2019-08-06 01:38:51.752108
++%matplotlib tk\
+
+# 2019-08-06 01:40:14.742756
++from googlesearch.googlesearch import GoogleSearch
+
+# 2019-08-06 01:43:01.254459
++nlp = spacy.load("en_core_web_sm")
+
+# 2019-08-06 01:51:52.835602
++from spacymoji import Emoji
+
+# 2019-08-06 11:43:16.807576
++from prompt_toolkit import prompt
+
+# 2019-08-06 11:45:25.795840
++%matplotlib tk\
+
+# 2019-08-06 11:46:55.746311
++import spacy
+
+# 2019-08-06 11:46:58.153851
++from spacy.lang.en import English
+
+# 2019-08-06 11:47:07.233638
++nlp = spacy.load("en")
+
+# 2019-08-06 11:47:35.968753
++import botocore
+
+# 2019-08-06 11:48:25.959117
++import spacy
+
+# 2019-08-06 11:48:27.903841
++from spacy.lang.en import English
+
+# 2019-08-06 11:48:29.974305
++nlp = spacy.load("en")
+
+# 2019-08-06 11:49:15.332536
++import torch
+
+# 2019-08-06 11:49:18.097207
++from numpy.testing import assert_almost_equal
+
+# 2019-08-06 11:49:25.468468
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-06 12:06:55.054464
++from spacy.lang.en import English
+
+# 2019-08-06 12:47:20.848072
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-06 12:47:24.728308
++import spacy
+
+# 2019-08-06 12:47:25.808192
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-06 12:49:17.664241
++import en_pytt_bertbaseuncased_lg
+
+# 2019-08-06 12:49:42.610531
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-06 12:52:40.634572
++nlp = en_pytt_bertbaseuncased_lg.load()
+
+# 2019-08-06 12:54:13.557940
++doc = nlp("Apple shares rose on the news. Apple pie is delicious.")
+
+# 2019-08-06 12:54:20.853981
++print(doc[0].similarity(doc[7]))
+
+# 2019-08-06 12:54:25.053942
++print(doc._.pytt_last_hidden_state.shape)
+
+# 2019-08-06 12:56:12.721208
++import en_pytt_bertbaseuncased_lg
+
+# 2019-08-06 12:57:01.200594
++nlp = en_pytt_bertbaseuncased_lg.load()
+
+# 2019-08-06 12:57:06.379637
++nlp = en_pytt_bertbaseuncased_lg.load()
+
+# 2019-08-06 15:35:11.791530
++%matplotlib tk\
+
+# 2019-08-06 15:35:34.482686
++version()
+
+# 2019-08-06 15:36:10.551436
++import spacy
+
+# 2019-08-06 15:36:11.950392
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-07 01:41:23.321455
++%matplotlib tk\
+
+# 2019-08-07 01:54:32.915424
++%matplotlib tk
+
+# 2019-08-07 19:29:00.906849
++%matplotlib tk\
+
+# 2019-08-10 18:06:39.962677
++d(5)
+
+# 2019-08-10 18:56:30.377283
++5 < 10
+
+# 2019-08-10 18:57:33.307614
++1 if 5 < 10 else 20
+
+# 2019-08-10 19:22:12.379411
++version()
+
+# 2019-08-10 19:22:22.176030
++str(version())
+
+# 2019-08-10 19:22:27.713883
++version()
+
+# 2019-08-10 19:22:29.883048
++d(version())
+
+# 2019-08-10 19:22:57.921672
++sys.version_info
+
+# 2019-08-10 19:23:33.823890
++from shanepy import *
+
+# 2019-08-10 19:23:37.010322
++version()
+
+# 2019-08-10 19:23:40.266452
++str(version())
+
+# 2019-08-10 19:23:56.468312
++%matplotlib tk\
+
+# 2019-08-10 19:24:01.589203
++str(version())
+
+# 2019-08-10 19:24:05.722504
++version()
+
+# 2019-08-10 19:24:12.995277
++version().major
+
+# 2019-08-10 19:24:44.334905
++version().major > 2
+
+# 2019-08-10 19:25:44.564957
++version().major > 5
+
+# 2019-08-10 19:29:02.288702
++version().count
+
+# 2019-08-10 19:29:06.905895
++version().count()
+
+# 2019-08-10 19:29:24.458925
++d(version())
+
+# 2019-08-10 22:34:03.076030
++print(5)
+
+# 2019-08-10 22:34:59.171827
++version().major
+
+# 2019-08-10 22:35:28.496553
++sys.version_info.maj
+
+# 2019-08-10 22:35:30.610196
++sys.version_info.major
+
+# 2019-08-10 23:10:40.510613
++%matplotlib tk\
+
+# 2019-08-10 23:20:01.164772
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-10 23:20:09.457345
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-10 23:20:23.707015
++t(nlp)
+
+# 2019-08-10 23:21:48.712256
++t = t(nlp)
+
+# 2019-08-10 23:21:51.447733
++t(t)
+
+# 2019-08-10 23:22:24.754475
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-08-10 23:22:41.749656
++mt = t(nlp)
+
+# 2019-08-10 23:22:45.365791
++t(mt)
+
+# 2019-08-10 23:50:21.541025
++import pydoc
+
+# 2019-08-10 23:51:32.884869
++locate("spacy_pytorch_transformers.language.PyTT_Language")
+
+# 2019-08-10 23:51:38.224658
++from pydoc import locate
+
+# 2019-08-10 23:51:39.132229
++locate("spacy_pytorch_transformers.language.PyTT_Language")
+
+# 2019-08-10 23:51:44.829218
++locate("spacy_pytorch_transformers.language.PyTT_Language").__name__
+
+# 2019-08-10 23:51:47.828410
++locate("spacy_pytorch_transformers.language.PyTT_Language")
+
+# 2019-08-10 23:52:08.403675
++import pydoc
+
+# 2019-08-10 23:53:40.054363
++locate("spacy_pytorch_transformers.language.PyTT_Language")()
+
+# 2019-08-10 23:53:42.648494
++o = locate("spacy_pytorch_transformers.language.PyTT_Language")()
+
+# 2019-08-10 23:53:58.221609
++type(o)
+
+# 2019-08-10 23:54:12.980791
++type(o).__dir__
+
+# 2019-08-10 23:54:14.788978
++type(o).__dir__()
+
+# 2019-08-10 23:54:20.535434
++type(o).__dir__(o)
+
+# 2019-08-10 23:54:29.838905
++type(o).path
+
+# 2019-08-10 23:54:31.903576
++type(o).path()
+
+# 2019-08-10 23:54:34.775953
++type(o).path
+
+# 2019-08-11 00:01:02.017714
++from spacy import Matcher
+
+# 2019-08-11 00:01:43.560935
++from spacy.matcher import Matcher
+
+# 2019-08-11 00:01:50.267791
++ts(Matcher)
+
+# 2019-08-11 00:01:53.499346
++t(Matcher)
+
+# 2019-08-11 00:02:18.516007
++matcher = Matcher(nlp.vocab)
+
+# 2019-08-11 00:02:24.711060
++nlp = spacy.load("en_core_web_sm")
+
+# 2019-08-11 00:03:00.317979
++inspect.getsource(nlp)
+
+# 2019-08-11 00:03:06.680017
++inspect.getsource(t(nlp))
+
+# 2019-08-11 00:03:15.576037
++inspect.getsourcefile(t(nlp))
+
+# 2019-08-11 00:08:24.716295
++et
+
+# 2019-08-11 00:08:30.675150
++te
+
+# 2019-08-11 00:11:18.101750
++lt
+
+# 2019-08-11 00:15:30.040964
++lm
+
+# 2019-08-11 01:58:50.103293
++env
+
+# 2019-08-11 01:59:43.097002
++env("HOME")
+
+# 2019-08-11 02:16:30.050305
++from spacy.gold import GoldParse
+
+# 2019-08-11 02:17:17.955841
++inspect.getsourcefile(GoldParse)
+
+# 2019-08-11 02:17:25.736394
++inspect.getsourcefile(spacy.gold)
+
+# 2019-08-11 02:17:32.023332
++print(inspect.getsourcefile(spacy.gold))
+
+# 2019-08-11 02:17:37.463280
++inspect.getsource(spacy.gold)
+
+# 2019-08-11 02:17:48.561813
++inspect.getsource(spacy.gold.GoldParse)
+
+# 2019-08-11 02:18:35.574105
++inspect.getsource(spacy.gold.GoldParse) or ""
+
+# 2019-08-11 02:18:40.685326
++print(inspect.getsource(spacy.gold.GoldParse) or "")
+
+# 2019-08-11 02:31:39.179930
++from py2hy.py2hy import main
+
+# 2019-08-11 03:09:33.023414
++import py2hy
+
+# 2019-08-11 03:46:06.929945
++s("something cool\"" "/tmp/yo.txt")
+
+# 2019-08-11 03:46:53.037150
++s("something cool\"", "/home/shane/testingyo.txt")
+
+# 2019-08-12 01:12:35.717356
++%matplotlib tk\
+
+# 2019-08-12 01:24:29.738927
++import readline
+
+# 2019-08-12 01:38:04.298048
++ts(readline)
+
+# 2019-08-12 01:38:08.679636
++pdl(readline)
+
+# 2019-08-12 01:38:26.459493
++lt(readline)
+
+# 2019-08-12 01:38:31.718799
++t(readline)
+
+# 2019-08-12 01:38:39.974332
++ts(t(readline))
+
+# 2019-08-12 01:39:21.025008
++pdl(readline.bash)
+
+# 2019-08-12 01:39:28.639022
++ts(readline.bash)
+
+# 2019-08-12 14:39:46.002422
++readline
+
+# 2019-08-12 14:42:16.405587
++readline.__file__
+
+# 2019-08-12 14:47:15.109082
++type("hi")
+
+# 2019-08-12 14:48:01.139001
++isinstance("string", Object)
+
+# 2019-08-12 14:52:00.103246
++inspect.getsourcefile(b)
+
+# 2019-08-12 14:52:13.903896
++inspect.getsourcefile(type)
+
+# 2019-08-12 14:53:21.054198
++pathof(readline)
+
+# 2019-08-12 14:54:32.347364
++pathof("hi")
+
+# 2019-08-12 14:57:12.120069
++def pathof(thing):
++        """
++            Describe a thing
++                """
+
+# 2019-08-12 14:57:22.982806
++source_file("/home/shane/var/smulliga/source/git/mullikine/shanepy/shanepy.py")
+
+# 2019-08-12 14:58:47.726949
++pathof(readline)
+
+# 2019-08-12 14:59:01.326029
++source_file("/home/shane/var/smulliga/source/git/mullikine/shanepy/shanepy.py")
+
+# 2019-08-12 14:59:02.021533
++pathof(readline)
+
+# 2019-08-12 14:59:11.824661
++readline.__file__
+
+# 2019-08-12 14:59:16.246979
++pathof("hi")
+
+# 2019-08-12 14:59:21.263558
++lt("hi")
+
+# 2019-08-12 14:59:38.674696
++pathof("hi")
+
+# 2019-08-12 14:59:47.219233
++inspect.getsource(pathof)
+
+# 2019-08-12 14:59:53.005417
++inspect.getsource(lt)
+
+# 2019-08-12 15:00:15.896395
++type(pathof)
+
+# 2019-08-12 15:00:20.455899
++pathof("hi")
+
+# 2019-08-12 15:00:36.662586
++source_file("/home/shane/var/smulliga/source/git/mullikine/shanepy/shanepy.py")
+
+# 2019-08-12 15:00:38.191330
++pathof("hi")
+
+# 2019-08-12 15:01:19.163217
++pathof(pathof)
+
+# 2019-08-12 15:03:33.474088
++source_file("/home/shane/var/smulliga/source/git/mullikine/shanepy/shanepy.py")
+
+# 2019-08-12 15:03:57.253157
++pathof(readline)
+
+# 2019-08-12 15:04:33.007911
++source_file("/home/shane/var/smulliga/source/git/mullikine/shanepy/shanepy.py")
+
+# 2019-08-12 15:04:34.862884
++pathof(readline)
+
+# 2019-08-12 15:05:34.037493
++lt(readline)
+
+# 2019-08-12 15:05:37.290392
++lt(b)
+
+# 2019-08-12 15:05:41.929691
++po
+
+# 2019-08-12 15:07:27.293916
++readline
+
+# 2019-08-12 15:07:38.264284
++lt(readline)
+
+# 2019-08-12 15:07:46.300361
++inspect.getsource(readline)
+
+# 2019-08-12 15:10:55.584758
++import readline
+
+# 2019-08-12 15:11:08.041281
++%matplotlib tk\
+
+# 2019-08-12 15:11:12.102087
++import radline
+
+# 2019-08-12 15:11:15.825561
++import readline
+
+# 2019-08-12 15:21:41.489976
++%matplotlib tk\
+
+# 2019-08-12 15:21:51.468603
++readline
+
+# 2019-08-12 15:21:53.963024
++import readline
+
+# 2019-08-12 15:22:05.451388
++lt(readline)
+
+# 2019-08-12 15:25:45.875982
++import readline
+
+# 2019-08-12 15:29:54.891260
++%matplotlib tk\
+
+# 2019-08-12 15:31:18.109039
++pathof(readline)
+
+# 2019-08-12 16:27:05.834616
++lm(spacy.tokens)
+
+# 2019-08-12 16:30:35.983265
++list_methods(spacy.tokens)
+
+# 2019-08-12 16:31:28.978745
++source_file("/home/shane/var/smulliga/source/git/mullikine/shanepy/shanepy.py")
+
+# 2019-08-12 16:34:01.542819
++import importlib
+
+# 2019-08-12 16:34:06.383013
++reload(shanepy)
+
+# 2019-08-12 16:34:13.288753
++importlib.reload(shanepy)
+
+# 2019-08-12 16:34:32.351423
++reload(shanepy)
+
+# 2019-08-12 16:34:37.152049
++importlib.reload(shanepy)
+
+# 2019-08-12 16:35:13.247914
++list_children
+
+# 2019-08-12 16:35:22.659353
++import shanepy
+
+# 2019-08-12 16:35:27.730001
++list_children
+
+# 2019-08-12 16:35:31.659601
++importlib.reload(shanepy)
+
+# 2019-08-12 16:35:35.426616
++list_child
+
+# 2019-08-12 16:35:38.651469
++list_children
+
+# 2019-08-12 16:35:46.660933
++from shanepy import *
+
+# 2019-08-12 16:35:48.881184
++list_children
+
+# 2019-08-12 16:36:40.848981
++from shanepy import *
+
+# 2019-08-12 16:36:52.274194
++import shanepy
+
+# 2019-08-12 16:36:53.881582
++from shanepy import *
+
+# 2019-08-12 16:36:58.155593
++reload_shanepy()
+
+# 2019-08-12 16:37:08.977782
++importlib.reload(shanepy)
+
+# 2019-08-12 16:37:14.699629
++reload_shanepy()
+
+# 2019-08-12 16:37:18.345510
++from shanepy import *
+
+# 2019-08-12 16:37:20.185368
++reload_shanepy()
+
+# 2019-08-12 16:39:07.518082
++s
+
+# 2019-08-12 16:39:11.737281
++reload_shanepy()
+
+# 2019-08-12 16:39:45.908094
++b("cr /home/shane/var/smulliga/source/git/mullikine/shanepy/shanepy.py")[0]
+
+# 2019-08-12 16:39:56.275593
++reload_shanepy()
+
+# 2019-08-12 19:48:11.720427
++pathof(shanepy)
+
+# 2019-08-12 19:48:16.120896
++pathof(b)
+
+# 2019-08-12 19:48:51.859396
++reload_shanepy()
+
+# 2019-08-12 19:49:11.389004
++from shanepy import *
+
+# 2019-08-12 19:49:19.194190
++pathof(b)
+
+# 2019-08-12 19:49:26.014441
++pathof(shanepy)
+
+# 2019-08-12 19:56:03.094392
++pathof(b)
+
+# 2019-08-12 21:28:38.849877
++pathof(spacy)
+
+# 2019-08-13 18:00:44.618325
++%matplotlib tk\
+
+# 2019-08-14 12:48:13.161704
++import rasa_nlu
+
+# 2019-08-14 12:48:17.162451
++import rasa_sdk
+
+# 2019-08-14 12:50:07.375583
++o("$MYGIT/santteegt/rasa-chatbot-example/stories.md")
+
+# 2019-08-14 12:50:51.580839
++reload_shanepy()
+
+# 2019-08-14 12:50:55.693429
++from shanepy import *
+
+# 2019-08-14 12:50:59.685535
++o("$MYGIT/santteegt/rasa-chatbot-example/stories.md")
+
+# 2019-08-14 12:51:34.204007
++xv
+
+# 2019-08-14 12:53:30.489885
++reload_shanepy()
+
+# 2019-08-14 12:54:44.229958
++from shanepy import *
+
+# 2019-08-14 12:55:07.680795
++b("cr $MYGIT/mullikine/shanepy/shanepy.py")[0]
+
+# 2019-08-14 13:31:22.745472
++version().major
+
+# 2019-08-14 17:26:40.274526
++np
+
+# 2019-08-14 17:27:09.018839
++version()
+
+# 2019-08-14 17:27:39.445157
++import rasa_sdk
+
+# 2019-08-14 17:27:46.708750
++import rasa_nlu
+
+# 2019-08-14 17:27:55.161755
++import rasa.nlu
+
+# 2019-08-15 13:57:35.251351
++reload_shanepy()
+
+# 2019-08-15 13:57:40.946151
++from shanepy import *
+
+# 2019-08-15 18:42:35.379677
++num1 = int(input("Enter first number: "))
+
+# 2019-08-15 18:45:39.025969
++df1=o("$MYGIT/tensorflow/tensorflow/contrib/learn/python/learn/datasets/data/boston_house_prices.csv")
+
+# 2019-08-15 18:45:41.554969
++df1
+
+# 2019-08-15 18:45:57.013388
++ppr(df1)
+
+# 2019-08-15 18:46:20.482172
++df2=o("$MYGIT/visidata/sample_data/StatusPR.csv").rename(columns={'Cdid':'CDID', 'MenuItemElement':'ElementName'})
+
+# 2019-08-15 18:46:21.703959
++df2
+
+# 2019-08-15 18:47:06.278191
++import tensorflow_text
+
+# 2019-08-15 18:47:11.079087
++import tensorflow_text
+
+# 2019-08-15 20:26:37.817082
++df2
+
+# 2019-08-15 20:32:07.356794
++print(cool = 5)
+
+# 2019-08-16 22:45:23.553210
++%matplotlib tk\
+
+# 2019-08-17 20:39:46.760568
++import textblob
+
+# 2019-08-18 13:48:02.336255
++import textblob
+
+# 2019-08-18 13:48:15.750444
++import textblob
+
+# 2019-08-18 16:29:38.427103
++sayih
+
+# 2019-08-18 16:29:41.656883
++reload_shanepy()
+
+# 2019-08-18 16:29:55.809003
++from shanepy import *
+
+# 2019-08-18 16:29:59.890378
++sayhi()
+
+# 2019-08-18 20:46:16.816568
++reload_shanepy()
+
+# 2019-08-19 12:03:36.196095
++%matplotlib tk\
+
+# 2019-08-19 14:02:17.448146
++with self.assertRaises(TypeError):
++        self.testListNone[:1]
+
+# 2019-08-19 14:06:57.455929
++from sniffer.api import get_files
+
+# 2019-08-19 18:48:00.423552
++%matplotlib tk\
+
+# 2019-08-22 10:35:06.304101
++reload_shanepy()
+
+# 2019-08-22 10:35:11.129228
++from shanepy import *
+
+# 2019-08-22 10:35:17.350378
++list_imports_here
+
+# 2019-08-22 10:35:18.397764
++list_imports_here()
+
+# 2019-08-22 10:35:32.685365
++reload_shanepy()
+
+# 2019-08-22 10:35:34.741391
++list_imports_here()
+
+# 2019-08-22 10:35:39.261068
++reload_shanepy()
+
+# 2019-08-22 10:35:41.365569
++from shanepy import *
+
+# 2019-08-22 10:35:44.646424
++list_imports_here()
+
+# 2019-08-22 10:36:29.956077
++list_imports_here().split("\n")
+
+# 2019-08-22 10:37:34.803244
++reload_shanepy()
+
+# 2019-08-22 10:37:36.937708
++from shanepy import *
+
+# 2019-08-22 11:02:34.989388
++reload_shanepy(); from shanepy import *
+
+# 2019-08-22 11:02:46.052977
++list_imports_here()
+
+# 2019-08-22 11:03:08.755806
++from util.util import mask_
+
+# 2019-08-22 11:12:07.515086
++reload_shanepy(); from shanepy import *
+
+# 2019-08-22 11:13:28.251352
++list_imports_here()
+
+# 2019-08-22 11:14:14.329188
++reload_shanepy(); from shanepy import *
+
+# 2019-08-22 11:14:16.969237
++list_imports_here()
+
+# 2019-08-22 11:16:24.438131
++reload_shanepy(); from shanepy import *
+
+# 2019-08-22 11:16:26.583192
++list_imports_here()
+
+# 2019-08-22 11:16:42.791402
++reload_shanepy(); from shanepy import *
+
+# 2019-08-22 11:16:44.569257
++list_imports_here()
+
+# 2019-08-22 11:16:46.993639
++list_imports_here_pp()
+
+# 2019-08-22 11:19:33.621370
++reload_shanepy(); from shanepy import *
+
+# 2019-08-22 11:19:38.296463
++list_imports_here_pp()
+
+# 2019-08-22 11:19:41.824838
++list_imports_here()
+
+# 2019-08-22 11:20:12.926399
++reload_shanepy(); from shanepy import *
+
+# 2019-08-22 11:20:15.061918
++list_imports_here()
+
+# 2019-08-22 11:20:17.007075
++list_imports_here_pp()
+
+# 2019-08-22 11:20:43.436414
++reload_shanepy(); from shanepy import *
+
+# 2019-08-22 11:20:46.885465
++list_imports_here_pp()
+
+# 2019-08-22 11:21:58.233206
++pwd()
+
+# 2019-08-22 11:24:54.978812
++%matplotlib tk\
+
+# 2019-08-23 23:22:00.019683
++matplotlib_is_available = Truematplotlib_is_available = True
+
+# 2019-08-23 23:22:01.939908
++matplotlib_is_available = True
+
+# 2019-08-23 23:22:10.548021
++matplotlib_is_available.bit_length
+
+# 2019-08-23 23:22:11.979070
++matplotlib_is_available.bit_length()
+
+# 2019-08-23 23:23:13.445499
++a=5
+
+# 2019-08-23 23:23:17.998536
++a.bit_length()
+
+# 2019-08-23 23:24:23.354746
++print(True.bit_length())
+
+# 2019-08-23 23:24:32.274737
++print(str(True.bit_length()))
+
+# 2019-08-24 00:06:23.550105
++print((5).bit_length())
+
+# 2019-08-24 01:11:44.818097
++print((5).conjugate)
+
+# 2019-08-24 01:11:46.497231
++print((5).conjugate())
+
+# 2019-08-24 01:11:51.633322
++print((-5).conjugate())
+
+# 2019-08-24 01:12:32.287130
++print((1+3j.conjugate()).conjugate())
+
+# 2019-08-24 01:12:41.112005
++print(((1+3j).conjugate()).conjugate())
+
+# 2019-08-24 01:12:44.078425
++1+3j.conjugate()
+
+# 2019-08-24 01:12:55.903078
++print(((1+3j).conjugate()).conjugate())
+
+# 2019-08-24 01:13:04.013348
++print((1+3j).conjugate())
+
+# 2019-08-28 03:22:04.249928
++%matplotlib tk\
+
+# 2019-09-03 23:25:43.424393
++tf
+
+# 2019-09-04 19:47:42.432884
++%matplotlib tk\
+
+# 2019-09-09 13:03:39.320714
++import nlglib
+
+# 2019-09-09 13:04:39.363584
++pydoc.describe(nlglib)
+
+# 2019-09-09 13:04:45.123435
++pydoc.browse(nlglib)
+
+# 2019-09-09 21:54:41.089533
++%matplotlib tk\
+
+# 2019-09-10 21:42:11.224793
++import asyncio
+
+# 2019-09-11 13:17:22.181213
++%matplotlib tk\
+
+# 2019-09-11 21:21:22.511805
++direction(-2,0)
+
+# 2019-09-12 12:50:58.569706
++version()
+
+# 2019-09-12 12:51:00.464278
++import spacy
+
+# 2019-09-12 12:51:05.017454
++nlp = spacy.load("en")
+
+# 2019-09-12 13:22:36.704711
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-09-12 13:22:38.792934
++nlp = spacy.load("en_pytt_bertbaseuncased_lg")
+
+# 2019-09-12 14:42:19.234772
++import sense2vec
+
+# 2019-09-12 14:42:25.410556
++import sense2vec
+
+# 2019-09-12 14:42:31.209555
++import s3transfer
+
+# 2019-09-12 14:42:34.193042
++import sense
+
+# 2019-09-12 14:42:36.572285
++import sense2vec
+
+# 2019-09-12 14:42:44.400019
++import sense2vec
+
+# 2019-09-12 14:55:50.135446
++pd.describe_option('display')
+
+# 2019-09-13 10:35:22.064086
++version()
+
+# 2019-09-13 11:20:33.915310
++import srsly
+
+# 2019-09-13 11:20:58.498977
++import gensim
+
+# 2019-09-13 11:21:02.082720
++import gensim
+
+# 2019-09-13 11:32:20.168688
++import pyLDAVis
+
+# 2019-09-13 11:32:26.079910
++import pyLDAvis
+
+# 2019-09-13 11:32:32.389143
++import pyLDAvis
+
+# 2019-09-13 11:32:35.704631
++import pyLDAvis
+
+# 2019-09-13 23:12:21.453491
++%matplotlib tk\
+
+# 2019-09-14 09:59:28.685055
++import tensorflow
+
+# 2019-09-14 10:00:01.388933
++import tenet_rewrite_success_dir
+
+# 2019-09-14 10:00:04.504211
++import tensorflow
+
+# 2019-09-14 12:16:22.331340
++import input_data
+
+# 2019-09-15 09:39:36.544539
++import sympy
+
+# 2019-09-15 12:54:41.881793
++import binaryornot
+
+# 2019-09-15 12:55:46.612615
++from binaryornot import check
+
+# 2019-09-15 12:56:09.755951
++binaryornot.check()
+
+# 2019-09-15 12:58:29.774350
++binaryornot.check.is_binary("/bin/ed")
+
+# 2019-09-15 13:00:14.442444
++False and print("hi")
+
+# 2019-09-15 13:00:18.503468
++True and print("hi")
+
+# 2019-09-15 15:29:23.605711
++%matplotlib tk\
+
+# 2019-09-15 16:41:55.904267
++from textblob import TextBlob
+
+# 2019-09-15 20:50:43.515755
++'"{}"'.format("\"")
+
+# 2019-09-15 20:55:12.960421
++subprocess.call("cmd", "hi", "hi yo")
+
+# 2019-09-15 20:56:02.145203
++subprocess.call(["cmd", "hi", "hi yo"])
+
+# 2019-09-15 20:56:11.771841
++subprocess.call(["cmd", "hi", "hi yo", "hi\""])
+
+# 2019-09-15 20:56:47.725746
++s = subprocess.call(["cmd", "hi", "hi yo", "hi\""])
+
+# 2019-09-15 20:56:53.890551
++s
+
+# 2019-09-15 20:58:33.359160
++def joinargs(args):
++    commandstring = '';
++
++    MyOut = subprocess.Popen(["cmd"] + args,
++            stdout=subprocess.PIPE,
++            stderr=subprocess.STDOUT)
++    stdout,stderr = MyOut.communicate()
++    # print(stdout)
++    # print(stderr)
++
++    return stdout
+
+# 2019-09-15 20:58:43.944088
++joinargs(["hi", "hi yo"])
+
+# 2019-09-15 20:58:56.770267
++joinargs(["hi", "hi yo", "hi\""])
+
+# 2019-09-15 20:59:28.305586
++reload_shanepy(); from shanepy import *
+
+# 2019-09-15 20:59:33.446994
++joinargs(["hi", "hi yo", "hi\""])
+
+# 2019-09-15 21:53:03.471320
++print("\n")
+
+# 2019-09-16 02:12:50.577660
++reload_shanepy(); from shanepy import *
+
+# 2019-09-16 02:12:56.330882
++joinargs(["hi", "hi yo", "hi\""])
+
+# 2019-09-16 16:05:15.130213
++%matplotlib tk\
+
+# 2019-09-22 13:13:54.460453
++import grizzly.grizzly as gr
+
+# 2019-09-22 15:24:21.175162
++import curses
+
+# 2019-09-22 15:24:29.223887
++version()
+
+# 2019-09-22 18:10:19.529751
++import billiard
+
+# 2019-09-22 18:10:26.885852
++billiard.compat
+
+# 2019-09-22 18:10:30.883457
++import billiard.compat
+
+# 2019-09-22 19:31:40.791086
++%matplotlib tk\
+
+# 2019-09-24 23:12:00.936445
++class ClassName:
++        pass
+
+# 2019-09-24 23:12:10.589454
++members(ClassName)
+
+# 2019-09-24 23:12:25.172896
++m(ClassName)
+
+# 2019-09-24 23:12:39.720593
++type(ClassName)
+
+# 2019-09-24 23:12:59.576738
++dir(ClassName)
+
+# 2019-09-24 23:13:40.097959
++m([])
+
+# 2019-09-24 23:13:48.934740
++m([])
+
+# 2019-09-24 23:45:59.647067
++"\t".expandtabs()
+
+# 2019-09-24 23:46:58.911435
++"\t".expandtabs(1)
+
+# 2019-09-24 23:47:02.477428
++"\t".expandtabs(5)
+
+# 2019-09-24 23:48:25.376850
++%matplotlib tk\
+
+# 2019-09-24 23:55:23.091997
++"shane".center(100)
+
+# 2019-09-24 23:56:29.069692
++print("\t".expandtabs(4))
+
+# 2019-09-25 00:03:19.119280
++scipy.allclose()
+
+# 2019-09-25 21:33:53.227431
++%matplotlib tk\
+
+# 2019-09-27 09:26:37.636859
++rasa.nlu
+
+# 2019-09-27 09:26:40.247314
++import rasa.nlu
+
+# 2019-09-27 09:26:43.824155
++import rasa_nlu
+
+# 2019-09-27 09:27:01.561010
++import rasa_nlu
+
+# 2019-09-27 09:27:07.990230
++import rasa_nlu
+
+# 2019-09-27 09:28:19.731026
++if ((2,3) < (4,5)):
++    print("hi")
+
+# 2019-09-27 09:28:35.768246
++if ((2,5) < (4,5)):
++    print("hi")
+
+# 2019-09-27 09:33:57.520350
++(0, 1) < (1, 0)
+
+# 2019-09-27 09:38:41.878585
++%matplotlib tk\
+
+# 2019-09-27 11:21:10.349082
++?
+
+# 2019-09-27 22:14:07.006811
++%matplotlib tk\
+
+# 2019-10-03 01:09:49.287830
++from emacs import Emacs
+
+# 2019-10-03 01:19:16.090168
++import pypi_api
+
+# 2019-10-03 01:19:18.628356
++import pypiapi
+
+# 2019-10-03 18:36:11.320253
++m(googlesearch)
+
+# 2019-10-03 18:36:14.962924
++import googlesearch
+
+# 2019-10-03 18:42:48.019323
++from googlesearch.googlesearch import GoogleSearch
+
+# 2019-10-04 12:11:14.862153
++import transfromers
+
+# 2019-10-04 12:11:18.405105
++import transformers
+
+# 2019-10-04 23:49:14.852542
++%matplotlib tk\
+
+# 2019-10-25 14:57:15.065981
++from googlesearch import search
+
+# 2019-10-25 14:57:24.595421
++from googlesearch import search
+
+# 2019-10-26 20:16:34.821088
++%matplotlib tk\
+
+# 2019-11-06 00:19:26.184157
++import psutil
+
+# 2019-11-06 11:47:11.069202
++%matplotlib tk\
