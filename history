@@ -5019,3 +5019,600 @@
 
 # 2019-11-12 23:19:32.192912
 +%matplotlib tk\
+
+# 2019-11-13 13:29:34.658758
++m
+
+# 2019-11-13 16:59:45.648539
++ls
+
+# 2019-11-13 17:17:15.301590
++5
+
+# 2019-11-13 17:17:53.877801
++ls()[:5]
+
+# 2019-11-13 17:18:00.477365
++reload_shanepy(); from shanepy import *
+
+# 2019-11-13 17:18:09.061670
++from shanepy import *
+
+# 2019-11-13 17:18:11.029832
++reload_shanepy(); from shanepy import *
+
+# 2019-11-13 17:18:13.445559
++ls
+
+# 2019-11-13 17:18:13.853732
++pwd
+
+# 2019-11-13 17:18:15.693679
++ls
+
+# 2019-11-13 17:18:20.718102
++b("cr $MYGIT/mullikine/shanepy/shanepy.py")[0]
+
+# 2019-11-13 17:18:25.221752
++ls
+
+# 2019-11-13 17:18:34.461796
++version()
+
+# 2019-11-13 17:18:37.621835
++ls
+
+# 2019-11-13 17:18:52.533525
++import tensorflow as tf
+
+# 2019-11-15 11:19:12.148517
++%matplotlib tk\
+
+# 2019-11-24 01:53:36.042937
++5
+
+# 2019-11-24 15:40:54.789031
++%matplotlib tk\
+
+# 2019-11-28 01:33:58.712747
++%matplotlib tk
+
+# 2019-11-28 01:34:56.566465
++5
+
+# 2019-11-28 01:35:10.056662
++%matplotlib tk
+
+# 2019-11-28 17:20:58.485104
++name = "Eric"
+
+# 2019-11-28 17:21:01.754985
++age = 74
+
+# 2019-11-29 00:20:03.368995
++%matplotlib tk
+
+# 2019-11-29 00:20:10.352323
++import jinja2
+
+# 2019-11-29 02:30:31.972976
++5
+
+# 2019-11-29 02:30:37.966447
++b("cr $MYGIT/mullikine/shanepy/shanepy.py")[0]
+
+# 2019-11-29 02:45:05.859292
++5
+
+# 2019-11-29 04:29:28.747427
++%matplotlib tk
+
+# 2019-11-29 13:59:26.011061
++-140
+
+# 2019-11-29 13:59:27.692959
++%matplotlib tk
+
+# 2019-11-29 18:52:32.710360
++-140
+
+# 2019-11-30 11:51:35.064869
++%matplotlib tk
+
+# 2019-12-26 13:11:57.645120
++import conllu
+
+# 2019-12-26 13:14:29.172452
++%matplotlib tk
+
+# 2019-12-26 13:16:31.117429
++o("$MYGIT/bplank/bilstm-aux/data/da-ud-dev.conllu")
+
+# 2019-12-26 18:48:09.471353
++import rosie
+
+# 2019-12-26 18:48:29.633105
++import rosie
+
+# 2019-12-28 01:10:44.203487
++%matplotlib tk
+
+# 2019-12-30 00:22:02.191396
++5
+
+# 2019-12-30 13:08:31.498146
++5
+
+# 2019-12-31 16:29:11.771709
++%matplotlib tk
+
+# 2020-01-30 14:13:50.538303
++import docker_registry_client
+
+# 2020-02-06 08:05:01.615691
++bool(0)
+
+# 2020-02-06 08:05:07.002452
++bool("")
+
+# 2020-02-06 08:05:09.282140
++bool("dkslf")
+
+# 2020-02-06 08:08:16.707778
++"hi" if bool("dkslf") else "bye"
+
+# 2020-02-16 09:34:41.582132
++import platform
+
+# 2020-02-16 09:35:04.116289
++platform.python_version
+
+# 2020-02-16 09:35:05.777915
++platform.python_version()
+
+# 2020-03-17 21:32:56.029575
++-140
+
+# 2020-06-04 18:45:07.937187
++import json
+
+# 2020-06-05 12:59:02.558330
++sys.stdin
+
+# 2020-06-25 12:11:39.859071
++from elasticsearch import Elasticsearch
+
+# 2020-06-25 12:11:40.793206
++client = Elasticsearch()
+
+# 2020-06-25 12:11:59.239415
++response = client.search(index="my-index",
++    body={
++      "query": {
++        "bool": {
++          "must": [{"match": {"title": "python"}}],
++          "must_not": [{"match": {"description": "beta"}}],
++          "filter": [{"term": {"category": "search"}}]
++        }
++      },
++      "aggs" : {
++        "per_tag": {
++          "terms": {"field": "tags"},
++          "aggs": {
++            "max_lines": {"max": {"field": "lines"}}
++          }
++        }
++      }
++    }
++)
+
+# 2020-06-26 16:18:21.302647
++version()
+
+# 2020-06-26 16:18:55.342185
++import AoE2ScenarioParser
+
+# 2020-06-26 16:19:13.516115
++from AoE2ScenarioParser import aoe2_scenario
+
+# 2020-06-26 16:19:41.531120
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:19:56.803384
++scen = AoE2Scenario("/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario")
+
+# 2020-06-26 16:20:52.905484
++hi
+
+# 2020-06-26 16:21:44.591976
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:21:46.063025
++scen = AoE2Scenario("/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario")
+
+# 2020-06-26 16:22:11.584846
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:22:11.839972
++scen = AoE2Scenario("/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario")
+
+# 2020-06-26 16:22:35.078959
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:22:35.285900
++scen = AoE2Scenario("/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario")
+
+# 2020-06-26 16:22:43.013312
++from shanepy import *
+
+# 2020-06-26 16:22:44.965588
++pwd()
+
+# 2020-06-26 16:22:48.989802
++ls()
+
+# 2020-06-26 16:22:53.694563
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:23:05.150481
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:23:14.012391
++scen = AoE2Scenario("/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario")
+
+# 2020-06-26 16:23:26.854712
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:23:27.185726
++scen = AoE2Scenario("/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario")
+
+# 2020-06-26 16:47:10.569276
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:47:10.909803
++scen = AoE2Scenario('/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario')
+
+# 2020-06-26 16:47:49.454053
++scen._file_header
+
+# 2020-06-26 16:49:33.242913
++scen._debug_byte_structure_to_file("/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario")
+
+# 2020-06-26 16:53:28.230255
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:53:29.423111
++scen = AoE2Scenario('/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario')
+
+# 2020-06-26 16:53:46.229717
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:53:47.422803
++scen = AoE2Scenario('/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario')
+
+# 2020-06-26 16:54:28.273522
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:54:29.446638
++scen = AoE2Scenario('/home/shane/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario')
+
+# 2020-06-26 16:54:30.572180
++scen._debug_byte_structure_to_file('/tmp/-home-shane-var-smulliga-source-git-ksneijders-aoe2scenarioparser-resources-maps-allconditions-aoe2scenario.txt')
+
+# 2020-06-26 16:56:08.809552
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:56:09.976810
++scen = AoE2Scenario('MM_Arabia.aoe2scenario')
+
+# 2020-06-26 16:56:10.111088
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-mm-arabia-aoe2scenario.txt')
+
+# 2020-06-26 16:56:52.404015
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:56:53.604129
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/MM_Arabia.aoe2scenario')
+
+# 2020-06-26 16:56:54.992691
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-mm-arabia-aoe2scenario.txt')
+
+# 2020-06-26 16:59:00.285573
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 16:59:01.458628
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/KOTH_Map1_v0_2_REWRITE.aoe2scenario')
+
+# 2020-06-26 16:59:07.550644
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-koth-map1-v0-2-rewrite-aoe2scenario.txt')
+
+# 2020-06-26 16:59:24.417941
++scen.object_manager
+
+# 2020-06-26 16:59:34.977984
++scen.object_manager.trigger_manager.triggers
+
+# 2020-06-26 16:59:44.002470
++from shanepy import *
+
+# 2020-06-26 16:59:49.636563
++tv(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:00:17.422194
++type(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:00:52.181578
++tv(json.dumps(scen.object_manager.trigger_manager.triggers))
+
+# 2020-06-26 17:01:03.310015
++json.dumps(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:01:51.003765
++pickle.dumps(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:01:54.740055
++tv(pickle.dumps(scen.object_manager.trigger_manager.triggers))
+
+# 2020-06-26 17:02:25.066878
++tv(scen.object_manager.trigger_manager.triggers) and None
+
+# 2020-06-26 17:02:50.323407
++typ(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:02:52.778665
++type(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:03:07.722879
++scen.object_manager.trigger_manager.triggers
+
+# 2020-06-26 17:03:26.610016
++scen.object_manager.trigger_manager.triggers[0]
+
+# 2020-06-26 17:03:34.913820
++json.dumps(scen.object_manager.trigger_manager.triggers[0])
+
+# 2020-06-26 17:03:41.642028
++scen.object_manager.trigger_manager.triggers[0]
+
+# 2020-06-26 17:03:46.161500
++tv(scen.object_manager.trigger_manager.triggers[0])
+
+# 2020-06-26 17:04:26.785706
++tv(scen.object_manager.trigger_manager.triggers[0].__dict__)
+
+# 2020-06-26 17:04:36.169059
++json.dumps(scen.object_manager.trigger_manager.triggers[0].__dict__)
+
+# 2020-06-26 17:05:11.855857
++import jsonpickle
+
+# 2020-06-26 17:05:31.448869
++jsonpickle.encode(scen.object_manager.trigger_manager.triggers[0])
+
+# 2020-06-26 17:05:39.799358
++tv(jsonpickle.encode(scen.object_manager.trigger_manager.triggers[0])) and None
+
+# 2020-06-26 17:08:13.439022
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 17:08:14.629587
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/KOTH_Map1_v0_2_REWRITE.aoe2scenario')
+
+# 2020-06-26 17:08:20.742472
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-koth-map1-v0-2-rewrite-aoe2scenario.txt')
+
+# 2020-06-26 17:08:34.195521
++from shanepy import *
+
+# 2020-06-26 17:09:06.668846
++tvjq(scen.object_manager.trigger_manager.triggers[0])
+
+# 2020-06-26 17:10:37.019509
++from shanepy import *
+
+# 2020-06-26 17:10:38.362173
++tvjq(scen.object_manager.trigger_manager.triggers[0])
+
+# 2020-06-26 17:11:11.671778
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 17:11:12.910634
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/KOTH_Map1_v0_2_REWRITE.aoe2scenario')
+
+# 2020-06-26 17:11:19.774882
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-koth-map1-v0-2-rewrite-aoe2scenario.txt')
+
+# 2020-06-26 17:11:29.048988
++from shanepy import *
+
+# 2020-06-26 17:11:34.736835
++tvjq(scen.object_manager.trigger_manager.triggers[0])
+
+# 2020-06-26 17:12:26.923050
++from shanepy import *
+
+# 2020-06-26 17:12:28.576166
++tvjq(scen.object_manager.trigger_manager.triggers[0])
+
+# 2020-06-26 17:12:54.349960
++tvjq(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:13:29.964014
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 17:13:31.174131
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/KOTH_Map1_v0_2_REWRITE.aoe2scenario')
+
+# 2020-06-26 17:13:37.387323
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-koth-map1-v0-2-rewrite-aoe2scenario.txt')
+
+# 2020-06-26 17:13:47.782120
++from shanepy import *
+
+# 2020-06-26 17:13:50.964599
++tvjq(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:14:25.661365
++from shanepy import *
+
+# 2020-06-26 17:14:26.771500
++tvjq(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:14:44.595567
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 17:14:45.804587
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/KOTH_Map1_v0_2_REWRITE.aoe2scenario')
+
+# 2020-06-26 17:14:51.999609
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-koth-map1-v0-2-rewrite-aoe2scenario.txt')
+
+# 2020-06-26 17:15:00.259267
++from shanepy import *
+
+# 2020-06-26 17:15:02.114583
++tvjq(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:16:05.692316
++from shanepy import *
+
+# 2020-06-26 17:16:07.309766
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 17:16:07.491515
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/AllEffects.aoe2scenario')
+
+# 2020-06-26 17:16:08.632990
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-alleffects-aoe2scenario.txt')
+
+# 2020-06-26 17:16:19.899616
++tvjq(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-26 17:23:34.907949
++from shanepy import *
+
+# 2020-06-26 17:23:36.520591
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 17:23:36.756545
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/DefendGameBase.aoe2scenario')
+
+# 2020-06-26 17:23:39.816125
++scen._debug_byte_structure_to_file('/tmp/-home-shane-virtualbox-shared-scenario-defendgamebase-aoe2scenario.txt')
+
+# 2020-06-26 17:24:21.829032
++tvjq(scen.object_manager.parser_header)
+
+# 2020-06-26 18:04:21.605000
++from shanepy import *
+
+# 2020-06-26 18:04:23.196111
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-26 18:04:23.460234
++scen = AoE2Scenario('/home/shane/var/smulliga/source/git/KSneijders/AoE2ScenarioParser/resources/maps/AllConditions.aoe2scenario')
+
+# 2020-06-26 18:04:24.539888
++scen._debug_byte_structure_to_file('/tmp/-home-shane-var-smulliga-source-git-ksneijders-aoe2scenarioparser-resources-maps-allconditions-aoe2scenario.txt')
+
+# 2020-06-26 18:05:19.209181
++ls
+
+# 2020-06-26 18:05:31.093746
++ls()
+
+# 2020-06-27 15:02:08.510234
++from shanepy import *
+
+# 2020-06-27 15:02:10.280545
++from AoE2ScenarioParser.aoe2_scenario import AoE2Scenario
+
+# 2020-06-27 15:02:10.489764
++scen = AoE2Scenario('/home/shane/virtualbox-shared/scenario/KOTH_Map1_v0_2.aoe2scenario')
+
+# 2020-06-27 15:02:28.288369
++tvjq(scen.object_manager.parser_header)
+
+# 2020-06-27 15:02:40.384225
++tvjq(scen.object_manager.trigger_manager.triggers)
+
+# 2020-06-27 15:04:00.877180
++scen
+
+# 2020-06-27 15:04:04.461337
++scen.__dir__
+
+# 2020-06-27 15:04:10.492786
++str(scen.__dir__)
+
+# 2020-06-27 15:04:13.404604
++str(scen.__dir__())
+
+# 2020-06-29 12:04:31.582518
++import openapi
+
+# 2020-06-29 12:04:44.048998
++shanepy.lsautofiles()
+
+# 2020-06-29 13:11:40.764606
++import openai
+
+# 2020-07-07 11:03:24.352744
++import fs
+
+# 2020-07-07 11:03:33.177563
++from fs import _thread_synchronize_default, SEEK_END
+
+# 2020-07-07 11:05:22.600593
++from shanepy import *
+
+# 2020-07-07 11:05:47.536390
++m(fs)
+
+# 2020-08-05 15:29:32.416545
++import re
+
+# 2020-08-05 15:30:20.851937
++re.match("(\d+)\.(\d+)\.(\d+)", "01.01.20.txt")
+
+# 2020-08-05 15:31:24.485934
++re.match(r"(\d+)\.(\d+)\.(\d+)", "01.01.20.txt")
+
+# 2020-08-05 15:31:51.035394
++re.match(r"(\d+)\.(\d+)\.(\d+)", "01.01.20.txt").groups()
+
+# 2020-08-05 15:32:07.409728
++re.match(r"(\d+)\.(\d+)\.(\d+)", "01.01.20.txt").groups()[1]
+
+# 2020-08-05 15:32:09.553626
++re.match(r"(\d+)\.(\d+)\.(\d+)", "01.01.20.txt").groups()[0]
+
+# 2020-08-05 17:00:07.797040
++import functools
+
+# 2020-08-05 17:13:22.189863
++import re
+
+# 2020-08-05 17:14:13.851744
++re.match("\d+\.\d+\.\d+", "01.01.20.txt")
+
+# 2020-08-05 17:14:24.763270
++re.match("\\d+\.\\d+\.\\d+", "01.01.20.txt")
+
+# 2020-08-05 17:14:28.075335
++re.match("\d+\.\d+\.\d+", "01.01.20.txt")
+
+# 2020-08-05 17:16:21.855118
++import re
+
+# 2020-08-05 17:16:22.591118
++re.match("\d+\.\d+\.\d+", "01.01.20.txt")
+
+# 2020-08-05 17:16:39.734158
++import warnings
+
+# 2020-08-05 17:16:42.189629
++warnings.filterwarnings("ignore", category=DeprecationWarning)
+
+# 2020-08-05 17:16:43.997748
++re.match("\d+\.\d+\.\d+", "01.01.20.txt")

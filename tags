@@ -4,15 +4,11 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-_	config.py	/^    def _(event):$/;"	f	function:configure
 _	config.py3.5.py	/^    def _(event):$/;"	f	function:configure
 _	config.py3.6.py	/^    def _(event):$/;"	f	function:configure
-__all__	config.py	/^__all__ = ($/;"	v
 __all__	config.py3.5.py	/^__all__ = ($/;"	v
 __all__	config.py3.6.py	/^__all__ = ($/;"	v
-_custom_ui_colorscheme	config.py	/^_custom_ui_colorscheme = {$/;"	v
 _custom_ui_colorscheme	config.py3.5.py	/^_custom_ui_colorscheme = {$/;"	v
 _custom_ui_colorscheme	config.py3.6.py	/^_custom_ui_colorscheme = {$/;"	v
-configure	config.py	/^def configure(repl):$/;"	f
 configure	config.py3.5.py	/^def configure(repl):$/;"	f
 configure	config.py3.6.py	/^def configure(repl):$/;"	f

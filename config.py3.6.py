@@ -14,6 +14,9 @@ __all__ = (
     'configure',
 )
 
+# This will prevent deprecation warnings from messing up the xpti repl
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 def configure(repl):
     """
@@ -109,11 +112,13 @@ def configure(repl):
     repl.true_color = False
     repl.enable_syntax_highlighting = False
 
-    # ANSI sadly doesn't entirely work in term-mode
+    # DISCARD ANSI sadly doesn't entirely work in term-mode
+    # Monochrome was good
+    # But now 256 colors DOES work
 
-    repl.color_depth = 'DEPTH_1_BIT'  # Monochrome.
+    #  repl.color_depth = 'DEPTH_1_BIT'  # Monochrome.
     #repl.color_depth = 'DEPTH_4_BIT'  # ANSI colors only.
-    #repl.color_depth = 'DEPTH_8_BIT'  # The default, 256 colors.
+    repl.color_depth = 'DEPTH_8_BIT'  # The default, 256 colors.
     #repl.color_depth = 'DEPTH_24_BIT'  # True color.
 
     # Install custom colorscheme named 'my-colorscheme' and use it.
